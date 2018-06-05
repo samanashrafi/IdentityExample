@@ -1,0 +1,100 @@
+﻿@model IdentityExample.Models.LoginViewModel
+
+@{
+    ViewBag.Title = "Log in";
+    Layout="~/Areas/Admin/Views/Shared/_Empty.cshtml";
+}
+
+
+
+
+
+
+    <div class="middle-box text-center loginscreen animated fadeInDown">
+        <div>
+            <div>
+
+                <h1 class="logo-name">IN+</h1>
+
+            </div>
+            <h3>پنل مدیر</h3>
+            @*<p>Perfectly designed and precisely prepared admin theme with over 50 pages with extra new web app views.
+                
+            </p>*@
+            
+            @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "m-t", role = "form" }))
+            {
+                @Html.AntiForgeryToken()
+                <div class="form-group">
+                    @*<input type="email" class="form-control" placeholder="Username" required="">*@
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control", @type = "email", @required = "", placeholder = "نام کاربری" })
+                    @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @*<input type="password" class="form-control" placeholder="Password" required="">*@
+                    @Html.PasswordFor(m => m.Password, new { @class = "form-control", @type = "password", @required = "", placeholder = "کلمه عبور" })
+                    @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                </div>
+                <button type="submit" class="btn btn-primary block full-width m-b">ورود</button>
+
+                <a href="#"><small>@Html.ActionLink("بازیابی کلمه عبور", "ForgotPassword")</small></a>
+
+               @*@Html.ActionLink("Register a new user?", "Register", "List", new { @class = "btn btn-sm btn-white btn-block" })*@
+                @*<a class="btn btn-sm btn-white btn-block" >@Html.ActionLink("Register a new user?", "Register", new { @class = "text-danger" })</a>*@
+            }
+            @*<p class="m-t"> <small>Inspinia we app framework base on Bootstrap 3 &copy; 2014</small> </p>*@
+        </div>
+    </div>
+@*<div class="row">
+    <div class="col-md-8">
+        <section id="loginForm">
+            @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "m-t", role = "form" })) {
+                @Html.AntiForgeryToken()
+                <h4>Use a local account to log in.</h4>
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
+                    <div class="col-md-10">
+                        @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <div class="checkbox">
+                            @Html.CheckBoxFor(m => m.RememberMe)
+                            @Html.LabelFor(m => m.RememberMe)
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Log in" class="btn btn-default" />
+                    </div>
+                </div>
+                <p>
+                    @Html.ActionLink("Register a new user?", "Register")
+                </p>
+                <p>
+                    @Html.ActionLink("Forget your password?", "ForgotPassword")
+                </p>
+            }
+        </section>
+    </div>
+    <div class="col-md-4">
+        <section id="socialLoginForm">
+            @Html.Partial("_ExternalLoginsListPartial", new IdentityExample.Models.ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
+        </section>
+    </div>
+</div>*@
+@section scriptfooter {
+    @Scripts.Render("~/bundles/jqueryval")
+}

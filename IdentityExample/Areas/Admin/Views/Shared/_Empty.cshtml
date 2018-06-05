@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] | .NET Core 1.0</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Add local styles, mostly for plugins css file -->
+
+
+    <link href="~/media/admin/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/media/admin/css/jquery.bootgrid.css" rel="stylesheet" />
+    <link href="~/media/admin/css/font-awesome.css" rel="stylesheet" />
+    <!-- Toastr style -->
+    <link href="~/media/admin/css/plugins/toastr/toastr.min.css" rel="stylesheet" />
+    <!-- Gritter -->
+    <link href="~/media/admin/js/plugins/gritter/jquery.gritter.css" rel="stylesheet" />
+
+    <link href="~/media/admin/css/animate.css" rel="stylesheet" />
+    <link href="~/media/admin/css/plugins/sweetalert/sweetalert.css" rel="stylesheet" />
+    <link href="~/media/admin/css/helper.css" rel="stylesheet" />
+    <link href="~/media/admin/css/style.css" rel="stylesheet" />
+    <link href="~/media/admin/css/plugins/iCheck/custom.css" rel="stylesheet" />
+</head>
+<body class="gray-bg">
+
+    <div id="wrapper">
+
+
+
+
+        @RenderBody()
+
+
+    </div>
+
+
+
+    <!-- Mainly scripts -->
+    <script src="~/media/admin/js/Scripts/jquery-2.1.1.js"></script>
+    @*
+    <script src="~/Scripts/jquery-1.10.2.js"></script>*@
+
+    <script src="~/media/admin/js/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/media/admin/js/Scripts/jquery.validate.js"></script>
+    @*
+    <script src="~/media/admin/js/plugins/validate/jquery.validate.min.js"></script>*@
+
+
+    <script src="~/media/admin/js/Scripts/bootstrap.min.js"></script>
+    <script src="~/media/admin/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="~/media/admin/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+
+
+    <!-- Custom and plugin javascript -->
+
+    <script src="~/media/admin/js/Scripts/persianumber.js"></script>
+    <script src="~/media/admin/js/Scripts/inspinia.js"></script>
+    <script src="~/media/admin/js/plugins/pace/pace.min.js"></script>
+    <!-- jQuery UI -->
+    <script src="~/media/admin/js/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script src="~/media/admin/js/Scripts/jquery.bootgrid.js"></script>
+    <script src="~/media/admin/js/plugins/sweetalert/sweetalert.min.js"></script>
+    <script src="~/media/admin/js/plugins/toastr/toastr.min.js"></script>
+    <script src="~/media/admin/js/plugins/iCheck/icheck.min.js"></script>
+    <script src="~/media/admin/js/model/PublicFuntions.js"></script>
+    <script data-main="/media/admin/js/model/main" src="~/media/admin/js/model/require.js"></script>
+
+    @RenderSection("scriptfooter", false)
+
+    <script>
+        $('html,body,table').persiaNumber();
+    </script>
+
+
+
+
+</body>
+</html>
+

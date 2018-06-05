@@ -1,0 +1,17 @@
+﻿@using System.Security.Claims
+@using Microsoft.AspNet.Identity
+@{
+    // From ApplicationUserManager -> GenerateUserIdentityAsync
+    //var claim = ((ClaimsIdentity)User.Identity).FindFirst("user-email");
+    var claim = ClaimsPrincipal.Current.Claims.FirstOrDefault(x => x.Type == "user-email");
+    var email = claim == null ? "" : claim.Value;
+}
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "" }))
+    {
+        @Html.AntiForgeryToken()
+        <a id="logout2" href="javascript:document.getElementById('logoutForm').submit()">خروج</a>
+    }
+}
+

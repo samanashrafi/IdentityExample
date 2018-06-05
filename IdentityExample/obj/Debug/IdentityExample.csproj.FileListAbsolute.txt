@@ -1,0 +1,264 @@
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\roslyn\csc.exe
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\roslyn\System.Collections.Immutable.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\roslyn\vbc.exe
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\roslyn\VBCSCompiler.exe
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\roslyn\VBCSCompiler.exe.config
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\IdentityExample.dll.config
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\IdentityExample.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\IdentityExample.pdb
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Antlr3.Runtime.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\EntityFramework.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\EntityFramework.SqlServer.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.Owin.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Google.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.Web.Infrastructure.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Newtonsoft.Json.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Owin.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\System.Web.Helpers.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\System.Web.Mvc.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\System.Web.Optimization.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\System.Web.Razor.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\System.Web.WebPages.Deployment.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\System.Web.WebPages.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\System.Web.WebPages.Razor.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\WebGrease.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Antlr3.Runtime.pdb
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\EntityFramework.xml
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\EntityFramework.SqlServer.xml
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.Owin.xml
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.xml
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Google.xml
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\Newtonsoft.Json.xml
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\System.Web.Helpers.xml
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\System.Web.Mvc.xml
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\System.Web.Optimization.xml
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\System.Web.Razor.xml
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\System.Web.WebPages.xml
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\System.Web.WebPages.Deployment.xml
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\bin\System.Web.WebPages.Razor.xml
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\obj\Debug\IdentityExample.csprojResolveAssemblyReference.cache
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\obj\Debug\IdentityExample.dll
+c:\users\chia\documents\visual studio 2015\Projects\IdentityExample\IdentityExample\obj\Debug\IdentityExample.pdb
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample\bin\IdentityExample.DataLayer.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample\bin\IdentityExample.DomainClasses.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample\bin\IdentityExample.IocConfig.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample\bin\IdentityExample.ServiceLayer.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample\bin\StructureMap.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample\bin\StructureMap.Web.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample\bin\System.Web.Http.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample\bin\System.Net.Http.Formatting.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample\bin\IdentityExample.DataLayer.pdb
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample\bin\IdentityExample.DomainClasses.pdb
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample\bin\IdentityExample.IocConfig.pdb
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample\bin\IdentityExample.ServiceLayer.pdb
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample\bin\StructureMap.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample\bin\StructureMap.Web.pdb
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample\bin\StructureMap.Web.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample\bin\System.Web.Http.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample\bin\System.Net.Http.Formatting.xml
+D:\Project\IdentityExample\IdentityExample\bin\roslyn\csc.exe
+D:\Project\IdentityExample\IdentityExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Project\IdentityExample\IdentityExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project\IdentityExample\IdentityExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Project\IdentityExample\IdentityExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Project\IdentityExample\IdentityExample\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Project\IdentityExample\IdentityExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Project\IdentityExample\IdentityExample\bin\roslyn\System.Collections.Immutable.dll
+D:\Project\IdentityExample\IdentityExample\bin\roslyn\System.Reflection.Metadata.dll
+D:\Project\IdentityExample\IdentityExample\bin\roslyn\vbc.exe
+D:\Project\IdentityExample\IdentityExample\bin\roslyn\VBCSCompiler.exe
+D:\Project\IdentityExample\IdentityExample\bin\roslyn\VBCSCompiler.exe.config
+D:\Project\IdentityExample\IdentityExample\bin\IdentityExample.dll.config
+D:\Project\IdentityExample\IdentityExample\bin\IdentityExample.dll
+D:\Project\IdentityExample\IdentityExample\bin\IdentityExample.pdb
+D:\Project\IdentityExample\IdentityExample\bin\Antlr3.Runtime.dll
+D:\Project\IdentityExample\IdentityExample\bin\EntityFramework.dll
+D:\Project\IdentityExample\IdentityExample\bin\EntityFramework.SqlServer.dll
+D:\Project\IdentityExample\IdentityExample\bin\IdentityExample.DataLayer.dll
+D:\Project\IdentityExample\IdentityExample\bin\IdentityExample.DomainClasses.dll
+D:\Project\IdentityExample\IdentityExample\bin\IdentityExample.IocConfig.dll
+D:\Project\IdentityExample\IdentityExample\bin\IdentityExample.ServiceLayer.dll
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.Owin.dll
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.dll
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Google.dll
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.Web.Infrastructure.dll
+D:\Project\IdentityExample\IdentityExample\bin\Newtonsoft.Json.dll
+D:\Project\IdentityExample\IdentityExample\bin\Owin.dll
+D:\Project\IdentityExample\IdentityExample\bin\StructureMap.dll
+D:\Project\IdentityExample\IdentityExample\bin\StructureMap.Web.dll
+D:\Project\IdentityExample\IdentityExample\bin\System.Web.Helpers.dll
+D:\Project\IdentityExample\IdentityExample\bin\System.Web.Mvc.dll
+D:\Project\IdentityExample\IdentityExample\bin\System.Web.Optimization.dll
+D:\Project\IdentityExample\IdentityExample\bin\System.Web.Razor.dll
+D:\Project\IdentityExample\IdentityExample\bin\System.Web.WebPages.Deployment.dll
+D:\Project\IdentityExample\IdentityExample\bin\System.Web.WebPages.dll
+D:\Project\IdentityExample\IdentityExample\bin\System.Web.WebPages.Razor.dll
+D:\Project\IdentityExample\IdentityExample\bin\WebGrease.dll
+D:\Project\IdentityExample\IdentityExample\bin\System.Web.Http.dll
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Project\IdentityExample\IdentityExample\bin\System.Net.Http.Formatting.dll
+D:\Project\IdentityExample\IdentityExample\bin\IdentityExample.DataLayer.pdb
+D:\Project\IdentityExample\IdentityExample\bin\IdentityExample.DomainClasses.pdb
+D:\Project\IdentityExample\IdentityExample\bin\IdentityExample.IocConfig.pdb
+D:\Project\IdentityExample\IdentityExample\bin\IdentityExample.ServiceLayer.pdb
+D:\Project\IdentityExample\IdentityExample\bin\Antlr3.Runtime.pdb
+D:\Project\IdentityExample\IdentityExample\bin\EntityFramework.xml
+D:\Project\IdentityExample\IdentityExample\bin\EntityFramework.SqlServer.xml
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.Owin.xml
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.xml
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Google.xml
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Project\IdentityExample\IdentityExample\bin\Newtonsoft.Json.xml
+D:\Project\IdentityExample\IdentityExample\bin\StructureMap.xml
+D:\Project\IdentityExample\IdentityExample\bin\StructureMap.Web.pdb
+D:\Project\IdentityExample\IdentityExample\bin\StructureMap.Web.xml
+D:\Project\IdentityExample\IdentityExample\bin\System.Web.Helpers.xml
+D:\Project\IdentityExample\IdentityExample\bin\System.Web.Mvc.xml
+D:\Project\IdentityExample\IdentityExample\bin\System.Web.Optimization.xml
+D:\Project\IdentityExample\IdentityExample\bin\System.Web.Razor.xml
+D:\Project\IdentityExample\IdentityExample\bin\System.Web.WebPages.xml
+D:\Project\IdentityExample\IdentityExample\bin\System.Web.WebPages.Deployment.xml
+D:\Project\IdentityExample\IdentityExample\bin\System.Web.WebPages.Razor.xml
+D:\Project\IdentityExample\IdentityExample\bin\System.Web.Http.xml
+D:\Project\IdentityExample\IdentityExample\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Project\IdentityExample\IdentityExample\bin\System.Net.Http.Formatting.xml
+D:\Project\IdentityExample\IdentityExample\obj\Debug\IdentityExample.csprojResolveAssemblyReference.cache
+D:\Project\IdentityExample\IdentityExample\obj\Debug\IdentityExample.dll
+D:\Project\IdentityExample\IdentityExample\obj\Debug\IdentityExample.pdb
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\roslyn\csc.exe
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\roslyn\System.Collections.Immutable.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\roslyn\System.Reflection.Metadata.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\roslyn\vbc.exe
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\roslyn\VBCSCompiler.exe
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\roslyn\VBCSCompiler.exe.config
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\IdentityExample.dll.config
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\IdentityExample.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\IdentityExample.pdb
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Antlr3.Runtime.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\EntityFramework.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\EntityFramework.SqlServer.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\IdentityExample.DataLayer.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\IdentityExample.DomainClasses.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\IdentityExample.IocConfig.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\IdentityExample.ServiceLayer.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.Owin.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Google.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.Web.Infrastructure.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Newtonsoft.Json.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Owin.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\StructureMap.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\StructureMap.Web.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\System.Web.Helpers.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\System.Web.Mvc.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\System.Web.Optimization.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\System.Web.Razor.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\System.Web.WebPages.Deployment.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\System.Web.WebPages.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\System.Web.WebPages.Razor.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\WebGrease.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\System.Web.Http.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\System.Net.Http.Formatting.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\IdentityExample.DataLayer.pdb
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\IdentityExample.DomainClasses.pdb
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\IdentityExample.IocConfig.pdb
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\IdentityExample.ServiceLayer.pdb
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Antlr3.Runtime.pdb
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\EntityFramework.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\EntityFramework.SqlServer.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.Owin.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Google.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Newtonsoft.Json.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\StructureMap.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\StructureMap.Web.pdb
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\StructureMap.Web.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\System.Web.Helpers.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\System.Web.Mvc.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\System.Web.Optimization.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\System.Web.Razor.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\System.Web.WebPages.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\System.Web.WebPages.Deployment.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\System.Web.WebPages.Razor.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\System.Web.Http.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\bin\System.Net.Http.Formatting.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample\obj\Debug\IdentityExample.csprojResolveAssemblyReference.cache
+D:\Project\IdentityExample\IdentityExample\IdentityExample\obj\Debug\IdentityExample.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample\obj\Debug\IdentityExample.pdb

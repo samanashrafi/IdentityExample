@@ -1,0 +1,93 @@
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\IdentityExample.ServiceLayer.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\IdentityExample.ServiceLayer.pdb
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\EntityFramework.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\IdentityExample.DomainClasses.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\IdentityExample.DomainClasses.pdb
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\EntityFramework.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\obj\Debug\IdentityExample.ServiceLayer.csprojResolveAssemblyReference.cache
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\obj\Debug\IdentityExample.ServiceLayer.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\obj\Debug\IdentityExample.ServiceLayer.pdb
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\IdentityExample.ServiceLayer.dll.config
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\IdentityExample.DataLayer.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.Owin.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Owin.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\System.Web.Http.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\IdentityExample.DataLayer.pdb
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.Owin.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\System.Web.Http.xml
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\IdentityExample.ServiceLayer.dll.config
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\IdentityExample.ServiceLayer.dll
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\IdentityExample.ServiceLayer.pdb
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\EntityFramework.dll
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\IdentityExample.DataLayer.dll
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\IdentityExample.DomainClasses.dll
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.Owin.dll
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.Owin.Security.dll
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Newtonsoft.Json.dll
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Owin.dll
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\System.Net.Http.Formatting.dll
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\System.Web.Http.dll
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\IdentityExample.DataLayer.pdb
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\IdentityExample.DomainClasses.pdb
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\EntityFramework.xml
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.Owin.xml
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.Owin.Security.xml
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Newtonsoft.Json.xml
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\System.Net.Http.Formatting.xml
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\System.Web.Http.xml
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\obj\Debug\IdentityExample.ServiceLayer.csprojResolveAssemblyReference.cache
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\obj\Debug\IdentityExample.ServiceLayer.dll
+D:\Project\IdentityExample\IdentityExample.ServiceLayer\obj\Debug\IdentityExample.ServiceLayer.pdb
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\IdentityExample.ServiceLayer.dll.config
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\IdentityExample.ServiceLayer.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\IdentityExample.ServiceLayer.pdb
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\EntityFramework.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\IdentityExample.DataLayer.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\IdentityExample.DomainClasses.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.Owin.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.Owin.Security.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Newtonsoft.Json.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Owin.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\System.Net.Http.Formatting.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\System.Web.Http.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\IdentityExample.DataLayer.pdb
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\IdentityExample.DomainClasses.pdb
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\EntityFramework.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.Owin.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.Owin.Security.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\Newtonsoft.Json.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\System.Net.Http.Formatting.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\bin\Debug\System.Web.Http.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\obj\Debug\IdentityExample.ServiceLayer.csprojResolveAssemblyReference.cache
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\obj\Debug\IdentityExample.ServiceLayer.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.ServiceLayer\obj\Debug\IdentityExample.ServiceLayer.pdb

@@ -1,0 +1,46 @@
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.DataLayer\bin\Debug\IdentityExample.DataLayer.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.DataLayer\bin\Debug\IdentityExample.DataLayer.pdb
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.DataLayer\bin\Debug\EntityFramework.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.DataLayer\bin\Debug\IdentityExample.DomainClasses.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.DataLayer\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.DataLayer\bin\Debug\IdentityExample.DomainClasses.pdb
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.DataLayer\bin\Debug\EntityFramework.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.DataLayer\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.DataLayer\obj\Debug\IdentityExample.DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.DataLayer\obj\Debug\IdentityExample.DataLayer.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.DataLayer\obj\Debug\IdentityExample.DataLayer.pdb
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.DataLayer\bin\Debug\IdentityExample.DataLayer.dll.config
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project\IdentityExample\IdentityExample.DataLayer\bin\Debug\IdentityExample.DataLayer.dll.config
+D:\Project\IdentityExample\IdentityExample.DataLayer\bin\Debug\IdentityExample.DataLayer.dll
+D:\Project\IdentityExample\IdentityExample.DataLayer\bin\Debug\IdentityExample.DataLayer.pdb
+D:\Project\IdentityExample\IdentityExample.DataLayer\bin\Debug\EntityFramework.dll
+D:\Project\IdentityExample\IdentityExample.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project\IdentityExample\IdentityExample.DataLayer\bin\Debug\IdentityExample.DomainClasses.dll
+D:\Project\IdentityExample\IdentityExample.DataLayer\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project\IdentityExample\IdentityExample.DataLayer\bin\Debug\IdentityExample.DomainClasses.pdb
+D:\Project\IdentityExample\IdentityExample.DataLayer\bin\Debug\EntityFramework.xml
+D:\Project\IdentityExample\IdentityExample.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project\IdentityExample\IdentityExample.DataLayer\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project\IdentityExample\IdentityExample.DataLayer\obj\Debug\IdentityExample.DataLayer.csprojResolveAssemblyReference.cache
+D:\Project\IdentityExample\IdentityExample.DataLayer\obj\Debug\IdentityExample.DataLayer.dll
+D:\Project\IdentityExample\IdentityExample.DataLayer\obj\Debug\IdentityExample.DataLayer.pdb
+D:\Project\IdentityExample\IdentityExample.DataLayer\bin\Debug\Newtonsoft.Json.dll
+D:\Project\IdentityExample\IdentityExample.DataLayer\bin\Debug\Newtonsoft.Json.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.DataLayer\bin\Debug\IdentityExample.DataLayer.dll.config
+D:\Project\IdentityExample\IdentityExample\IdentityExample.DataLayer\bin\Debug\IdentityExample.DataLayer.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.DataLayer\bin\Debug\IdentityExample.DataLayer.pdb
+D:\Project\IdentityExample\IdentityExample\IdentityExample.DataLayer\bin\Debug\EntityFramework.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.DataLayer\bin\Debug\IdentityExample.DomainClasses.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.DataLayer\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.DataLayer\bin\Debug\Newtonsoft.Json.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.DataLayer\bin\Debug\IdentityExample.DomainClasses.pdb
+D:\Project\IdentityExample\IdentityExample\IdentityExample.DataLayer\bin\Debug\EntityFramework.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.DataLayer\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.DataLayer\bin\Debug\Newtonsoft.Json.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.DataLayer\obj\Debug\IdentityExample.DataLayer.csprojResolveAssemblyReference.cache
+D:\Project\IdentityExample\IdentityExample\IdentityExample.DataLayer\obj\Debug\IdentityExample.DataLayer.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.DataLayer\obj\Debug\IdentityExample.DataLayer.pdb

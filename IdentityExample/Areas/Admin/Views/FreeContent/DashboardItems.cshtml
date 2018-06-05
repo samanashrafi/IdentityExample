@@ -1,0 +1,22 @@
+﻿
+@model IEnumerable<IdentityExample.DomainClasses.FreeContent>
+
+@{
+   
+}
+
+<ul class="nav nav-second-level">
+    @*<li class="active"><a href="index.html">مقاله</a></li>
+    <li><a href="dashboard_2.html">ترجمه</a></li>
+    <li><a href="dashboard_3.html">برندینگ</a></li>
+    <li><a href="dashboard_4_1.html">بیلبرد</a></li>
+    <li><a href="dashboard_5.html">کمپین تبلیغاتی </a></li>
+    <li><a href="dashboard_5.html">منوها </a></li>*@
+
+    @foreach (var item in Model)
+    {
+        <li><a href="/subfreecontent/index/@item.Id">@item.Title</a></li>
+    }
+</ul>
+
+

@@ -1,0 +1,74 @@
+﻿@model IdentityExample.DomainClasses.FreeContent
+   
+
+<form id="edit-free-content" name="edit_free_content" method="post" role="form" action="@Url.Action("edit")" onsubmit="return false ">
+
+
+
+    <div class="modal inmodal" id="Edit-Modal" tabindex="-1" role="dialog" aria-hidden="true">
+
+
+        <div class="modal-dialog">
+            <div class="modal-content animated bounceInRight">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <i class="fa fa-pencil modal-icon"></i>
+                    <h4 class="modal-title">ویرایش محتوا آزاد</h4>
+                  
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>عنوان فارسی</label>
+                        <div class="fg-line">
+                            <input id="edit-Title" name="Title" value="" type="text" placeholder="لطفا عنوان فارسی را وارد فرمایید..." class="form-control">
+                            <label id="edit-Title-error" for="edit-Title" class="has-error has-feedback check_valid display-none"></label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>عنوان انگلیسی</label>
+                        <div class="fg-line">
+                            <input id="edit-TitleEn" name="TitleEn" type="text" placeholder="لطفا عنوان انگلیسی را وارد فرمایید..." class="form-control">
+                            <label id="edit-TitleEn-error" for="edit-TitleEn" class="has-error has-feedback check_valid display-none"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>نوع محتوای آزاد</label>
+                        <div class="fg-line">
+                            <input id="edit-Type" name="Type" type="text" placeholder="لطفا نوع محتوا را وارد فرمایید..." class="form-control">
+                            <label id="edit-Type-error" for="edit-Type" class="has-error has-feedback check_valid display-none"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>اولویت</label>
+                        <div class="fg-line">
+                            <input id="edit-Priority" name="Priority" type="text" placeholder="لطفا اولویت محتوا را وارد فرمایید." class="form-control">
+                            <label id="edit-Priority-error" for="edit-Priority" class="has-error has-feedback check_valid display-none"></label>
+
+                        </div>
+                    </div>
+                    @*<div class="form-group">
+                        <div class="checkbox checkbox-success">
+                            <input  id="edit-Condition" name="Condition" type="checkbox" value="0" aria-label="Single checkbox Two">
+                            <label></label>
+                            <span class="m-r-md">قابل نمایش</span>
+                        </div>
+                    </div>*@
+                    <div class="form-group">
+                        <label>بارگذاری عکس</label>
+                        <div class="fg-line">
+                            <input id="edit-Image" name="Image" type="file">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button id="free-content-update" type="submit" class="btn btn-primary Free-Content-save">بروز رسانی</button>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+</form>

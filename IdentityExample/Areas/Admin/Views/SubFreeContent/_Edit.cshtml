@@ -1,0 +1,101 @@
+﻿@model IdentityExample.DomainClasses.SubFreeContent
+   
+
+<form id="edit-SubFreeContent" name="edit_SubFreeContent" method="post" role="form" action="@Url.Action("edit")" onsubmit="return false ">
+
+
+
+    <div class="modal inmodal" id="Edit-Modal" tabindex="-1" role="dialog" aria-hidden="true">
+
+
+        <div class="modal-dialog">
+            <div class="modal-content animated bounceInRight">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <i class="fa fa-pencil modal-icon"></i>
+                    <h4 class="modal-title">ویرایش محتوا </h4>
+                  
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="FreeContentId" name="FreeContentId" value="@Model.FreeContentId" />
+                    <div class="form-group">
+                        <label>عنوان فارسی</label>
+                        <div class="fg-line">
+                            <input id="edit-Title" name="Title" value="" type="text" placeholder="لطفا عنوان فارسی را وارد فرمایید..." class="form-control">
+                            <label id="edit-Title-error" for="edit-Title" class="has-error has-feedback check_valid display-none"></label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>عنوان انگلیسی</label>
+                        <div class="fg-line">
+                            <input id="edit-TitleEn" name="TitleEn" type="text" placeholder="لطفا عنوان انگلیسی را وارد فرمایید..." class="form-control">
+                            <label id="edit-TitleEn-error" for="edit-TitleEn" class="has-error has-feedback check_valid display-none"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>اولویت</label>
+                        <div class="fg-line">
+                            <input id="edit-Priority" name="Priority" type="text" placeholder="لطفا اولویت محتوا را وارد فرمایید." class="form-control">
+                            <label id="edit-Priority-error" for="edit-Priority" class="has-error has-feedback check_valid display-none"></label>
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>کلمات کلیدی</label>
+                        <div class="fg-line">
+                            <textarea id="edit-MetaKeyword" name="MetaKeyword" type="text" placeholder="مثال : کلمه کلیدی شما، کلمه کلیدی شما" class="form-control" rows=" 4" cols="30"></textarea>
+                            <label id="edit-MetaKeyword" for="edit-MetaKeyword" class="has-error has-feedback check_valid display-none"></label>
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>عنوان صحفه</label>
+                        <div class="fg-line">
+                            <input id="edit-PageTitle" name="PageTitle" type="text" placeholder="لطفا عنوان صحفه را وارد فرمایید." class="form-control">
+                            <label id="edit-PageTitle-error" for="edit-PageTitle " class="has-error has-feedback check_valid display-none"></label>
+                        </div>
+                    </div>
+                   
+
+                    <div class="form-group">
+                        <label>توضیحات صحفه</label>
+                        <div class="fg-line">
+                            <textarea id="edit-MetaDescription" name="MetaDescription" type="text" placeholder="لطفا توضیحات کوتاه محتوا را وارد فرمایید. " class="form-control" rows="4" cols="30"></textarea>
+                            <label id="edit-MetaDescription-error" for="edit-MetaDescription" class="has-error has-feedback check_valid display-none"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>توضیحات بلند</label>
+                        <div class="fg-line">
+                            <textarea id="edit-LongDescription" name="LongDescription" type="text" placeholder="لطفا توضیحات بلند محتوا را وارد فرمایید. " class="form-control" rows="4" cols="30"></textarea>
+
+                            <label id="edit-LongDescription-error" for="edit-LongDescription" class="has-error has-feedback check_valid display-none"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+
+                        <div class="checkbox checkbox-success">
+                            <input  id="edit-Condition" name="Condition" type="checkbox" value="0" aria-label="Single checkbox Two">
+                            <label></label>
+                            <span class="m-r-md">قابل نمایش</span>
+                        </div>
+                    </div>
+                    @*<div class="form-group">
+                        <label>بارگذاری عکس</label>
+                        <div class="fg-line">
+                            <input id="edit-Image" name="Image" type="file">
+
+                        </div>
+                    </div>*@
+                </div>
+                <div class="modal-footer">
+                    <button id="SubFreeContent-update" type="submit" class="btn btn-primary Free-Content-save">بروز رسانی</button>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+</form>

@@ -1,0 +1,138 @@
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.IocConfig.dll.config
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.IocConfig.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.IocConfig.pdb
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\EntityFramework.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.DataLayer.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.DomainClasses.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.ServiceLayer.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\Owin.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\StructureMap.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\StructureMap.Web.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\System.Web.Http.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.DataLayer.pdb
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.DomainClasses.pdb
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.ServiceLayer.pdb
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\EntityFramework.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\StructureMap.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\StructureMap.Web.pdb
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\StructureMap.Web.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\System.Web.Http.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\obj\Debug\IdentityExample.IocConfig.csprojResolveAssemblyReference.cache
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\obj\Debug\IdentityExample.IocConfig.dll
+C:\Users\Chia\Documents\Visual Studio 2015\Projects\IdentityExample\IdentityExample.IocConfig\obj\Debug\IdentityExample.IocConfig.pdb
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.IocConfig.dll.config
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.IocConfig.dll
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.IocConfig.pdb
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\EntityFramework.dll
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.DataLayer.dll
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.DomainClasses.dll
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.ServiceLayer.dll
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.dll
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.Security.dll
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\Newtonsoft.Json.dll
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\Owin.dll
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\StructureMap.dll
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\StructureMap.Web.dll
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\System.Net.Http.Formatting.dll
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\System.Web.Http.dll
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.DataLayer.pdb
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.DomainClasses.pdb
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.ServiceLayer.pdb
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\EntityFramework.xml
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.xml
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.Security.xml
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\Newtonsoft.Json.xml
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\StructureMap.xml
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\StructureMap.Web.pdb
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\StructureMap.Web.xml
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\System.Net.Http.Formatting.xml
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\System.Web.Http.xml
+D:\Project\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Project\IdentityExample\IdentityExample.IocConfig\obj\Debug\IdentityExample.IocConfig.csprojResolveAssemblyReference.cache
+D:\Project\IdentityExample\IdentityExample.IocConfig\obj\Debug\IdentityExample.IocConfig.dll
+D:\Project\IdentityExample\IdentityExample.IocConfig\obj\Debug\IdentityExample.IocConfig.pdb
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.IocConfig.dll.config
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.IocConfig.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.IocConfig.pdb
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\EntityFramework.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.DataLayer.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.DomainClasses.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.ServiceLayer.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.Security.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\Newtonsoft.Json.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\Owin.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\StructureMap.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\StructureMap.Web.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\System.Net.Http.Formatting.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\System.Web.Http.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.DataLayer.pdb
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.DomainClasses.pdb
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\IdentityExample.ServiceLayer.pdb
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\EntityFramework.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.Security.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\Newtonsoft.Json.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\StructureMap.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\StructureMap.Web.pdb
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\StructureMap.Web.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\System.Net.Http.Formatting.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\System.Web.Http.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\obj\Debug\IdentityExample.IocConfig.csprojResolveAssemblyReference.cache
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\obj\Debug\IdentityExample.IocConfig.dll
+D:\Project\IdentityExample\IdentityExample\IdentityExample.IocConfig\obj\Debug\IdentityExample.IocConfig.pdb
