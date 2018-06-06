@@ -2621,6 +2621,7 @@
     <Compile Include="Areas\Admin\Controllers\AccountController.cs" />
     <Compile Include="Areas\Admin\Controllers\SubFreeContentControlle.cs" />
     <Compile Include="Areas\Admin\Controllers\FreeContentController.cs" />
+    <Compile Include="Areas\Admin\Controllers\SubItemController.cs" />
     <Compile Include="Areas\Admin\Controllers\TestController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\FreeContentController - Copy.cs" />

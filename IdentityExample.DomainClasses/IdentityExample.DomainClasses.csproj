@@ -61,6 +61,7 @@
     <Compile Include="Images.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SubFreeContent.cs" />
+    <Compile Include="SubItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

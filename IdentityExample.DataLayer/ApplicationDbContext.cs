@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Data.Entity;
 using IdentityExample.DomainClasses;
 using Microsoft.AspNet.Identity.EntityFramework;
@@ -17,6 +14,8 @@ namespace IdentityExample.DataLayer
         public DbSet<FreeContent> FreeContents { get; set; }
         public DbSet<Images> Images { get; set; }
         public DbSet<SubFreeContent> SubFreeContents { get; set; }
+
+        public DbSet<SubItem> SubItems { get; set; }
         public ApplicationDbContext()
             : base("MyIdentityDb")
         {

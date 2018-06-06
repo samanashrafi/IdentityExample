@@ -81,6 +81,7 @@
   <ItemGroup>
     <Compile Include="ImageService.cs" />
     <Compile Include="IImageService.cs" />
+    <Compile Include="ISubItemService.cs" />
     <Compile Include="SubFreeContentService.cs" />
     <Compile Include="FreeContentService.cs" />
     <Compile Include="Identities\ApplicationRoleManager.cs" />
@@ -102,6 +103,7 @@
     <Compile Include="ISubFreeContentService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Identities\SmsService.cs" />
+    <Compile Include="SubItemService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\IdentityExample.DataLayer\IdentityExample.DataLayer.csproj">
