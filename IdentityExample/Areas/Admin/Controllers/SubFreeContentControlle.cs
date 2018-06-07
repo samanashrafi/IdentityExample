@@ -1,17 +1,9 @@
 ﻿using System.Web.Mvc;
-using Newtonsoft.Json;
 using IdentityExample.DataLayer;
 using IdentityExample.DomainClasses;
-using IdentityExample.ServiceLayer.Contracts;
 using IdentityExample.ServiceLayer;
 using System.Linq;
-using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
-using System.Web.Script.Serialization;
-using System;
-using System.Net;
-using IdentityExample.Filters;
-using System.Threading.Tasks;
 using System.Web;
 
 namespace IdentityExample.Areas.Admin.Controllers
@@ -19,14 +11,14 @@ namespace IdentityExample.Areas.Admin.Controllers
     [Authorize]
     public class SubFreeContentController : Controller
     {
-        readonly SubFreeContentService _SubFreeContentService;
+        readonly SubFreeContentService _subFreeContentService;
         readonly FreeContentService _freeContentService;
         readonly IUnitOfWork _uow;
         //readonly ImageService _image;
-        public SubFreeContentController(IUnitOfWork uow, SubFreeContentService SubFreeContentService,
+        public SubFreeContentController(IUnitOfWork uow, SubFreeContentService subFreeContentService,
             FreeContentService freeContentService)
         {
-            _SubFreeContentService = SubFreeContentService;
+            _subFreeContentService = subFreeContentService;
             _freeContentService = freeContentService;
             _uow = uow;
         }
@@ -37,15 +29,15 @@ namespace IdentityExample.Areas.Admin.Controllers
 
         {
             var model = _freeContentService.GetById(id);
-            ViewBag.SubFreeContent = _SubFreeContentService.GetSubByFreeContentId(id);//_freeContentService.GetSubByFreeContentId(id);
+            ViewBag.SubFreeContent = _subFreeContentService.GetSubByFreeContentId(id);
             return View(model);
         }
 
         [HttpGet]
         public JsonResult Data(RequestData model, int id)
         {
-            var list = _SubFreeContentService.GetSubFreeContentByFreeId(id);
-            var searchModel = _SubFreeContentService.GetSubFreeContentListBySearch(model.searchPhrase);
+            var list = _subFreeContentService.GetSubFreeContentByFreeId(id);
+            var searchModel = _subFreeContentService.GetSubFreeContentListBySearch(model.searchPhrase);
             int skipRows = (model.current - 1) * model.rowCount;
             if (searchModel != null)
             {
@@ -59,7 +51,7 @@ namespace IdentityExample.Areas.Admin.Controllers
                 };
                 return Json(f, JsonRequestBehavior.AllowGet);
             }
-                
+
             var tResult = new ResponseData<List<SubFreeContent>>()
             {
                 current = model.current,
@@ -78,29 +70,22 @@ namespace IdentityExample.Areas.Admin.Controllers
         //[ValidateAjax]
         [HttpPost]
 
-        public JsonResult Create(SubFreeContent SubFreeContent/*, HttpPostedFileBase uploadImage*/)
+        public JsonResult Create(SubFreeContent subFreeContent, HttpPostedFileBase uploadImage)
         {
             if (ModelState.IsValid)
             {
                 //string path = Server.MapPath("~") + "Admin\\SubFreeContentImage\\" + uploadImage.FileName;
 
-                //string path = Server.MapPath("~") + "upload\\" + uploadImage.FileName;
-                //if (uploadImage != null)
-                //{
-                //    Images image = new Images
-                //    {
-                //        Name = uploadImage.FileName,
-                //        Url = path,
-                //        SubFreeContent = SubFreeContent,
-                //        SubFreeContentId = 1
-                //    };
+                if (uploadImage != null && uploadImage.ContentLength > 0)
+                {
+                    var path = Server.MapPath("~") + "upload\\" + uploadImage.FileName;
+                    subFreeContent.Image.Name = uploadImage.FileName;
+                    subFreeContent.Image.Url = path;
 
-                //    uploadImage.SaveAs(path);
-                //    //SubFreeContent.Images.Add(image);
-                //    _image.Create(image);
-                //    _uow.SaveAllChanges();
-                //}
-                _SubFreeContentService.Create(SubFreeContent);
+                    uploadImage.SaveAs(path);
+                }
+                
+                _subFreeContentService.Create(subFreeContent);
                 _uow.SaveAllChanges();
                 var tResult = new { Success = "True", Message = "آیتم با موفقیت درج گردید" };
                 return Json(tResult, JsonRequestBehavior.AllowGet);
@@ -118,19 +103,19 @@ namespace IdentityExample.Areas.Admin.Controllers
         //// [ChildActionOnly]
         // public ActionResult Edit(int id)
         // {
-        //     var model = _SubFreeContentService.GetById(id);
+        //     var model = _subFreeContentService.GetById(id);
         //     ViewBag.SubFreeContent = model;
         //     return PartialView("_Edit", model);
         // }
 
         [HttpPost]
-        public JsonResult Edit(SubFreeContent SubFreeContent)
+        public JsonResult Edit(SubFreeContent subFreeContent)
         {
 
 
             if (ModelState.IsValid)
             {
-                _SubFreeContentService.Update(SubFreeContent);
+                _subFreeContentService.Update(subFreeContent);
                 _uow.SaveAllChanges();
                 //var tResult = SubFreeContent;
                 return Json(new { success = true, responseText = "ویرایش زیر محتوای آزاد با موفقت ثبت شد." }, JsonRequestBehavior.AllowGet);
@@ -148,21 +133,21 @@ namespace IdentityExample.Areas.Admin.Controllers
 
         public ActionResult Delete(int id)
         {
-            _SubFreeContentService.Delete(id);
+            _subFreeContentService.Delete(id);
 
             _uow.SaveAllChanges();
-            //var tResult = _SubFreeContentService.GetById(id);
+            //var tResult = _subFreeContentService.GetById(id);
             return Json("حذف آیتم انجام شد.", JsonRequestBehavior.AllowGet);
             //return RedirectToAction("Index");
         }
         [HttpPost]
-        public JsonResult MultiDelete(List<int> Id)
+        public JsonResult MultiDelete(List<int> id)
         {
-            if (Id != null && Id.Count > 0)
+            if (id != null && id.Count > 0)
             {
-                foreach (var item in Id)
+                foreach (var item in id)
                 {
-                    _SubFreeContentService.Delete(item);
+                    _subFreeContentService.Delete(item);
                 }
                 _uow.SaveAllChanges();
                 return Json("آیتم‌های مورد نظر با موفقیت حذف شدند.");
@@ -174,7 +159,7 @@ namespace IdentityExample.Areas.Admin.Controllers
         [HttpPost]
         public JsonResult Search(string term)
         {
-            var model = _SubFreeContentService.GetSubFreeContentListBySearch(term);
+            var model = _subFreeContentService.GetSubFreeContentListBySearch(term);
             if (model != null)
                 return Json(model);
             return Json("نتیجه ای یافت نشد", JsonRequestBehavior.AllowGet);
@@ -182,7 +167,7 @@ namespace IdentityExample.Areas.Admin.Controllers
 
         public ActionResult GetSubFreeContentById(int id)
         {
-            var model = _SubFreeContentService.GetSubFreeContentById(id);
+            var model = _subFreeContentService.GetSubFreeContentById(id);
             return PartialView("DashboardItems", model);
         }
     }

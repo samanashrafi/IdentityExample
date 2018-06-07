@@ -2667,8 +2667,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Areas\Admin\FreeContentImage\" />
     <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\SubFreeContentImage\" />
     <Folder Include="Areas\Admin\Views\Test\" />
     <Folder Include="upload\" />
   </ItemGroup>

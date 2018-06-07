@@ -17,7 +17,7 @@ namespace IdentityExample.DomainClasses
         [Required]
         [MaxLength(256)]
         public string Title { get; set; }
-
+        
         [MaxLength(256)]
         public string EnTitle { get; set; }
 
@@ -41,6 +41,8 @@ namespace IdentityExample.DomainClasses
         public string LastDisLikeDate { get; set; }
         public string LastLikeDate { get; set; }
         public string LastView { get; set; }
+
+        public Images Image { get; set; }
 
         [Display(Name = "FreeContent")]
         public int FreeContentId { get; set; }
