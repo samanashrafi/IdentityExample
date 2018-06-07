@@ -21,7 +21,6 @@ namespace IdentityExample.Areas.Admin.Controllers
     {
         readonly FreeContentService _freeContentService;
         readonly IUnitOfWork _uow;
-        readonly ImageService _image;
         public FreeContentController(IUnitOfWork uow, FreeContentService freeContentService)
         {
             _freeContentService = freeContentService;

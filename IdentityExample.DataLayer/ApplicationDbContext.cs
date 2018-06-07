@@ -11,11 +11,13 @@ namespace IdentityExample.DataLayer
         IUnitOfWork
     {
         public DbSet<Address> Addresses { set; get; }
+
         public DbSet<FreeContent> FreeContents { get; set; }
-        public DbSet<Images> Images { get; set; }
+
         public DbSet<SubFreeContent> SubFreeContents { get; set; }
 
         public DbSet<SubItem> SubItems { get; set; }
+
         public ApplicationDbContext()
             : base("MyIdentityDb")
         {

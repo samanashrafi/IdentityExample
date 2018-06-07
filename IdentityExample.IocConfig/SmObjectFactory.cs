@@ -1,14 +1,10 @@
 ﻿using System;
 using System.Web;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using StructureMap;
 using StructureMap.Web;
 using Microsoft.AspNet.SignalR;
 using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using System.Data.Entity;
 using System.Security.Claims;
@@ -111,9 +107,9 @@ namespace IdentityExample.IocConfig
                    .HybridHttpOrThreadLocalScoped()
                    .Use<SubFreeContentService>();
 
-                ioc.For<IImageService>()
-                   .HybridHttpOrThreadLocalScoped()
-                   .Use<ImageService>();
+                //ioc.For<IImageService>()
+                //   .HybridHttpOrThreadLocalScoped()
+                //   .Use<ImageService>();
 
                 ioc.For<ISubItemService>()
                     .HybridHttpOrThreadLocalScoped()

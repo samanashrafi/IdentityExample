@@ -62,7 +62,7 @@
     <Compile Include="Identities\CustomUserLogin.cs" />
     <Compile Include="Identities\CustomUserRole.cs" />
     <Compile Include="FreeContent.cs" />
-    <Compile Include="Images.cs" />
+    <Compile Include="Image.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SubFreeContent.cs" />
     <Compile Include="SubItem.cs" />
