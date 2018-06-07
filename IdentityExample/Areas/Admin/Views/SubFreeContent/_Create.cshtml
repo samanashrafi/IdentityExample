@@ -1,5 +1,5 @@
 ﻿@model int
-@Html.BeginForm("Create", "SubFreeContent", FormMethod.Post, new { id = "reg-SubFreeContent",onsubmit="return false" , name = "reg_SubFreeContent" })
+@Html.BeginForm("Create", "SubFreeContent", FormMethod.Post, new { id = "reg-SubFreeContent",onsubmit="return false" , name = "reg_SubFreeContent", enctype = "multipart/form-data"})
 {
 <div class="modal inmodal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
