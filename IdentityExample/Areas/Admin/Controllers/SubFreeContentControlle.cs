@@ -70,21 +70,24 @@ namespace IdentityExample.Areas.Admin.Controllers
         //[ValidateAjax]
         [HttpPost]
 
-        public JsonResult Create(SubFreeContent subFreeContent, HttpPostedFileBase uploadImage)
+        public JsonResult Create(SubFreeContent subFreeContent, HttpPostedFileBase postedFile)
         {
+
+            var files = Request.Files;
             if (ModelState.IsValid)
             {
+               
                 //string path = Server.MapPath("~") + "Admin\\SubFreeContentImage\\" + uploadImage.FileName;
 
-                if (uploadImage != null && uploadImage.ContentLength > 0)
+                if (postedFile != null && postedFile.ContentLength > 0)
                 {
-                    var path = Server.MapPath("~") + "upload\\" + uploadImage.FileName;
-                    subFreeContent.Image.Name = uploadImage.FileName;
+                    var path = Server.MapPath("~") + "upload\\" + postedFile.FileName;
+                    subFreeContent.Image.Name = postedFile.FileName;
                     subFreeContent.Image.Url = path;
 
-                    uploadImage.SaveAs(path);
+                    postedFile.SaveAs(path);
                 }
-                
+
                 _subFreeContentService.Create(subFreeContent);
                 _uow.SaveAllChanges();
                 var tResult = new { Success = "True", Message = "آیتم با موفقیت درج گردید" };
@@ -99,14 +102,14 @@ namespace IdentityExample.Areas.Admin.Controllers
 
         }
 
-        // [HttpGet]
-        //// [ChildActionOnly]
-        // public ActionResult Edit(int id)
-        // {
-        //     var model = _subFreeContentService.GetById(id);
-        //     ViewBag.SubFreeContent = model;
-        //     return PartialView("_Edit", model);
-        // }
+        [HttpGet]
+        // [ChildActionOnly]
+        public ActionResult Edit(int id)
+        {
+            var model = _subFreeContentService.GetById(id);
+            ViewBag.SubFreeContent = model;
+            return PartialView("_Edit", model);
+        }
 
         [HttpPost]
         public JsonResult Edit(SubFreeContent subFreeContent)

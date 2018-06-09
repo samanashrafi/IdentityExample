@@ -1,5 +1,5 @@
 ﻿@model int
-@Html.BeginForm("Create", "SubFreeContent", FormMethod.Post, new { id = "reg-SubFreeContent",onsubmit="return false" , name = "reg_SubFreeContent", enctype = "multipart/form-data"})
+@Html.BeginForm("Create", "SubFreeContent", FormMethod.Post, new { id = "reg-SubFreeContent",onsubmit="return false" , name = "reg_SubFreeContent", enctype = "multipart/form-data" })
 {
 <div class="modal inmodal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
@@ -85,7 +85,7 @@
                 <div class="form-group">
                     <label>بارگذاری عکس</label>
                     <div class="fg-line">
-                        <input id="Image" name="Image" type="file">
+                        <input id="Image" name="postedFile" type="file">
 
                     </div>
                 </div>
@@ -99,3 +99,5 @@
     </div>
 </div>
 }
+
+

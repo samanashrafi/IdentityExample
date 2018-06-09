@@ -1,6 +1,6 @@
 
 $(document).ready(function () {
-    
+
     /*
      --------------------
      -------------------- create Free Content
@@ -67,7 +67,7 @@ $(document).ready(function () {
 
 
     $('#clear-reg-SubFreeContent').click(function () {
-        
+
         ClearForm_input("form[name='reg_SubFreeContent']");
         $('.close').click();
     });
@@ -220,33 +220,33 @@ require(['JsonAction'], function (JsonAction) {
     $("#SubFreeContent-update").click(function () {
         //if ($("form[name='edit_SubFreeContent']").valid()) {
 
-            SubFreeContent.SetDataUpdate("#edit-Title", "Title", false);
-            SubFreeContent.SetDataUpdate("#edit-TitleEn", "TitleEn", false);
+        SubFreeContent.SetDataUpdate("#edit-Title", "Title", false);
+        SubFreeContent.SetDataUpdate("#edit-TitleEn", "TitleEn", false);
 
-            if ($('#edit-Priority').val() != "") {
-                SubFreeContent.SetDataUpdate("#edit-Priority", "Priority", false);
-            }
+        if ($('#edit-Priority').val() != "") {
+            SubFreeContent.SetDataUpdate("#edit-Priority", "Priority", false);
+        }
 
-            if ($('#edit-MetaKeyword').val() != "") {
-                SubFreeContent.SetDataUpdate("#edit-MetaKeyword", "MetaKeyword", false);
-            }
+        if ($('#edit-MetaKeyword').val() != "") {
+            SubFreeContent.SetDataUpdate("#edit-MetaKeyword", "MetaKeyword", false);
+        }
 
-            if ($('#edit-PageTitle').val() != "") {
-                SubFreeContent.SetDataUpdate("#edit-PageTitle", "PageTitle", false);
-            }
+        if ($('#edit-PageTitle').val() != "") {
+            SubFreeContent.SetDataUpdate("#edit-PageTitle", "PageTitle", false);
+        }
 
-            if ($('#edit-MetaDescription').val() != "") {
-                SubFreeContent.SetDataUpdate("#edit-MetaDescription", "MetaDescription", false);
-            }
+        if ($('#edit-MetaDescription').val() != "") {
+            SubFreeContent.SetDataUpdate("#edit-MetaDescription", "MetaDescription", false);
+        }
 
-            if ($('#edit-LongDescription').val() != "") {
-                SubFreeContent.SetDataUpdate("#edit-LongDescription", "LongDescription", false);
-            }
+        if ($('#edit-LongDescription').val() != "") {
+            SubFreeContent.SetDataUpdate("#edit-LongDescription", "LongDescription", false);
+        }
 
-            SubFreeContent.SetDataUpdate("#edit-Condition", "Condition", false);
-            SubFreeContent.SetDataUpdate("#FreeContentId", "FreeContentId", false);
+        SubFreeContent.SetDataUpdate("#edit-Condition", "Condition", false);
+        SubFreeContent.SetDataUpdate("#FreeContentId", "FreeContentId", false);
 
-            SubFreeContent.PostUpdate();
+        SubFreeContent.PostUpdate();
 
         //}
 
@@ -279,10 +279,9 @@ require(['JsonAction'], function (JsonAction) {
                 SubFreeContent.SetDataCreate("#LongDescription", "LongDescription", false);
 
             }
-            if ($('#Image').val() != "") {
-                SubFreeContent.SetDataCreate("#Image", "Image", false);
 
-            }
+            SubFreeContent.SetDataCreate("#Image", "Image", false);
+
             SubFreeContent.SetDataCreate("#Condition", "Condition", false);
             SubFreeContent.SetDataCreate("#FreeContentId", "FreeContentId", false);
             SubFreeContent.Create();
