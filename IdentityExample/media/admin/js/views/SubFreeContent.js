@@ -280,7 +280,12 @@ require(['JsonAction'], function (JsonAction) {
 
             }
 
-            SubFreeContent.SetDataCreate("#Image", "Image", false);
+            if ($('#file').val() != "") {
+                SubFreeContent.SetDataCreate("#file", "file", false);
+
+            }
+
+            //SubFreeContent.SetDataCreate("#file", "file", false);
 
             SubFreeContent.SetDataCreate("#Condition", "Condition", false);
             SubFreeContent.SetDataCreate("#FreeContentId", "FreeContentId", false);

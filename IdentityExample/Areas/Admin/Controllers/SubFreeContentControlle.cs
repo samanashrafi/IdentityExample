@@ -5,6 +5,7 @@ using IdentityExample.ServiceLayer;
 using System.Linq;
 using System.Collections.Generic;
 using System.Web;
+using System;
 
 namespace IdentityExample.Areas.Admin.Controllers
 {
@@ -70,7 +71,7 @@ namespace IdentityExample.Areas.Admin.Controllers
         //[ValidateAjax]
         [HttpPost]
 
-        public JsonResult Create(SubFreeContent subFreeContent, HttpPostedFileBase postedFile)
+        public JsonResult Create(SubFreeContent subFreeContent, HttpPostedFileBase file)
         {
 
             var files = Request.Files;
@@ -79,13 +80,13 @@ namespace IdentityExample.Areas.Admin.Controllers
                
                 //string path = Server.MapPath("~") + "Admin\\SubFreeContentImage\\" + uploadImage.FileName;
 
-                if (postedFile != null && postedFile.ContentLength > 0)
+                if (file != null && file.ContentLength > 0)
                 {
-                    var path = Server.MapPath("~") + "upload\\" + postedFile.FileName;
-                    subFreeContent.Image.Name = postedFile.FileName;
+                    var path = Server.MapPath("~") + "upload\\" + file.FileName;
+                    subFreeContent.Image.Name = file.FileName;
                     subFreeContent.Image.Url = path;
 
-                    postedFile.SaveAs(path);
+                    file.SaveAs(path);
                 }
 
                 _subFreeContentService.Create(subFreeContent);
@@ -173,5 +174,7 @@ namespace IdentityExample.Areas.Admin.Controllers
             var model = _subFreeContentService.GetSubFreeContentById(id);
             return PartialView("DashboardItems", model);
         }
+
+        
     }
 }
