@@ -53,6 +53,7 @@ define(function () {
         this.getID = 0;
         this.flag = false;
         this.GetRows = [];
+        this.SetSaveUrl = ;
     }
 
 
@@ -323,7 +324,7 @@ define(function () {
             fileData[i] = files[i];
         }
         console.log(fileData);
-        this.dataCreate["Images"] = fileData;
+        this.dataCreate["Image"] = fileData;
         for (var i = 0; i < parentThis.GetRowCreate.length; ++i) {
             // this.dataCreate[parentThis.GetRowCreate[i][1]] = $(parentThis.GetRowCreate[i][0]).val();
             if (parentThis.GetRowCreate[i][2] == true) {

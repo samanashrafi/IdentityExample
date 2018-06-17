@@ -280,16 +280,18 @@ require(['JsonAction'], function (JsonAction) {
 
             }
 
-            if ($('#file').val() != "") {
-                SubFreeContent.SetDataCreate("#file", "file", false);
-
-            }
+//            if ($('#file').val() != "") {
+//                SubFreeContent.SetDataCreate("#file", "file", false);
+//
+//            }
 
             //SubFreeContent.SetDataCreate("#file", "file", false);
 
             SubFreeContent.SetDataCreate("#Condition", "Condition", false);
             SubFreeContent.SetDataCreate("#FreeContentId", "FreeContentId", false);
-            SubFreeContent.Create();
+//            SubFreeContent.Create();
+
+            SubFreeContent.CreateMultiImage('file');
         }
 
     });
