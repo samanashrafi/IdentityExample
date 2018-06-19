@@ -53,7 +53,7 @@ define(function () {
         this.getID = 0;
         this.flag = false;
         this.GetRows = [];
-        this.SetSaveUrl = ;
+//        this.SetSaveUrl = null;
     }
 
 
@@ -103,16 +103,16 @@ define(function () {
             headers: {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             },
-            url: parentThis.SetUpdateUrl +'/'+ parentThis.getID,
+            url: parentThis.SetUpdateUrl + '/' + parentThis.getID,
             method: "post",
             data: parentThis.dataUpdate,
             success: function (response) {
 
-             
+
 
                 if (response.success) {
 
-                    
+
                     console.log('success');
 
                     setTimeout(function () {
@@ -129,7 +129,7 @@ define(function () {
 
             },
             error: function (response) {
-   
+
                 var json = JSON.parse(response.success);
                 if (json != "true") {
 
@@ -259,6 +259,8 @@ define(function () {
             }
         }
         console.log(parentThis.dataCreate);
+        console.log(parentThis.SetSaveUrl);
+
         $.ajax({
             url: parentThis.SetSaveUrl,
             dataType: 'json',
@@ -316,15 +318,20 @@ define(function () {
     JsonAction.prototype.CreateMultiImage = function (fileInput) {
         var parentThis = this;
         var files = $("#" + fileInput).get(0).files;
-        console.log(files);
-        var fileData = new FormData();
 
-        for (var i = 0; i < files.length; i++) {
-            //fileData.push(files[i]);
-            fileData[i] = files[i];
-        }
-        console.log(fileData);
-        this.dataCreate["Image"] = fileData;
+//        for (var i = 0; i < files.length; i++) {
+//            //fileData.push(files[i]);
+//            fileData[i] = files[i];
+//        }
+//        console.log(fileData);
+        this.dataCreate["file"] = files;
+
+        var form = $('#reg-SubFreeContent');
+        var formdata = false;
+        console.log(form);
+         if (window.FormData) {
+             formdata = new FormData(form[0]);
+         }
         for (var i = 0; i < parentThis.GetRowCreate.length; ++i) {
             // this.dataCreate[parentThis.GetRowCreate[i][1]] = $(parentThis.GetRowCreate[i][0]).val();
             if (parentThis.GetRowCreate[i][2] == true) {
@@ -335,27 +342,30 @@ define(function () {
 
             }
         }
-        console.log(this.dataCreate);
+//        console.log('dataCreate', this.dataCreate);
+//        console.log('formdata', formdata);
 
 
         $.ajax({
             url: parentThis.SetSaveUrl,
             dataType: 'json',
-            data: parentThis.dataCreate,
+            data: formdata ? formdata : form.serialize(),
             method: "post",
-            //contentType: false,
+            contentType: false,
             processData: false,
-            contentType: 'application/x-www-form-urlencoded',
+            cache: false,             // To unable request pages to be cached
+//            contentType: 'application/x-www-form-urlencoded',
             headers: {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             },
             success: function (response) {
-
+                var json = response.responseJSON;
+                console.log('json', response);
 
                 $('.btn-clear').click();
 
                 setTimeout(function () {
-                    toastr.success(response.responseText)
+                    toastr.success(response.responseText);
 
                     ReloadTable(parentThis.TableName);
                 }, 500);
@@ -364,7 +374,8 @@ define(function () {
             error: function (response) {
 
 
-
+                var json = response.responseJSON;
+                console.log('json', response);
                 if (json != "true") {
 
                     for (var i = 0; i < parentThis.GetRowCreate.length; i++)
@@ -392,6 +403,8 @@ define(function () {
             }
 
         });
+
+
     };
 
     JsonAction.prototype.Delete = function (id) {
@@ -424,7 +437,7 @@ define(function () {
                         toastr.success(response.responseText)
                         ReloadTable(parentThis.TableName);
                     }, 500);
-                 
+
                 },
                 error: function (response) {
                     toastr.error(response.responseTex);

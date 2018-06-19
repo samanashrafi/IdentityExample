@@ -42,7 +42,7 @@ namespace IdentityExample.DomainClasses
         public string LastLikeDate { get; set; }
         public string LastView { get; set; }
 
-        public Image Image { get; set; }// = new Image();
+        public Image Image { get; set; }= new Image();
 
         [Display(Name = "FreeContent")]
         public int FreeContentId { get; set; }

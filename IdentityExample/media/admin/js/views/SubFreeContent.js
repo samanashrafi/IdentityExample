@@ -81,7 +81,6 @@ require(['JsonAction'], function (JsonAction) {
     Get_Module = JsonAction;
     var SubFreeContent = new Get_Module("#SubFreeContent-grid", "#rest-SubFreeContent", "محتوای آزاد", SubFreeContent_data, SubFreeContent_Edit, SubFreeContent_delete, SubFreeContent_multidelete, SubFreeContent_create);
 
-
     JsonAction.prototype.TableConfig = function () {
         var parentThis = this;
 
