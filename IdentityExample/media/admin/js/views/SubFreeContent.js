@@ -77,7 +77,7 @@ $(document).ready(function () {
 
 require(['JsonAction'], function (JsonAction) {
     var Get_Module;
-
+    var update_Images = [];
     Get_Module = JsonAction;
     var SubFreeContent = new Get_Module("#SubFreeContent-grid", "#rest-SubFreeContent", "محتوای آزاد", SubFreeContent_data, SubFreeContent_Edit, SubFreeContent_delete, SubFreeContent_multidelete, SubFreeContent_create);
 
@@ -158,7 +158,7 @@ require(['JsonAction'], function (JsonAction) {
 
                 parentThis.getID = $(this).attr('data-id');
 
-                alert('edit is click.');
+                //                alert('edit is click.');
                 //$("form[name='edit_SubFreeContent']").ClearForm_input();
                 //if ($('#edit-Condition').is(':checked')) {
                 //    $("#edit-Condition").click();
@@ -185,10 +185,23 @@ require(['JsonAction'], function (JsonAction) {
                         $("#edit-MetaKeyword").val(MetaKeyword);
                         $("#edit-MetaDescription").val(MetaDescription);
                         $("#edit-LongDescription").val(LongDescription);
+                        //                        $("#edit-Images").attr('src', parentThis.GetRows[c]['Image']['Url']);
+
+//                        $("#edit-Images").attr('src', '/upload/pd.jpg');
+                        $('.img-inner').append(
+                            '<div class="remove-img">' +
+                                '<i class="fa fa-trash"></i>' +
+                            '</div>' +
+                           ' <div class="col-xs-4">' +
+                               '<img id="edit-Images" src="/upload/pd.jpg" class="img-responsive " />' +
+                            '</div>'
+                            );
+                        $('.remove-img').click(function () {
+                            $('.img-inner').html('');
+                        })
                         //if (Condition == 1) {
                         //    $("#edit-Condition").click();
                         //}
-
 
 
                     }
@@ -204,7 +217,7 @@ require(['JsonAction'], function (JsonAction) {
 
                 e.preventDefault();
                 var id = $(this).attr('data-id');
-                SubFreeContent.Delete(id)
+                SubFreeContent.Delete(id);
 
             });
             //
@@ -215,6 +228,15 @@ require(['JsonAction'], function (JsonAction) {
 
     SubFreeContent.TableConfig();
 
+
+    $('#edit-Image').change(function (event) {
+        var files = this.files[0];
+        var tmppath = URL.createObjectURL(event.target.files[0]);
+        console.log(tmppath);
+        $("#edit-Images").attr('src', tmppath);
+    });
+
+    
 
     $("#SubFreeContent-update").click(function () {
         //if ($("form[name='edit_SubFreeContent']").valid()) {
@@ -279,16 +301,16 @@ require(['JsonAction'], function (JsonAction) {
 
             }
 
-//            if ($('#file').val() != "") {
-//                SubFreeContent.SetDataCreate("#file", "file", false);
-//
-//            }
+            //            if ($('#file').val() != "") {
+            //                SubFreeContent.SetDataCreate("#file", "file", false);
+            //
+            //            }
 
             //SubFreeContent.SetDataCreate("#file", "file", false);
 
             SubFreeContent.SetDataCreate("#Condition", "Condition", false);
             SubFreeContent.SetDataCreate("#FreeContentId", "FreeContentId", false);
-//            SubFreeContent.Create();
+            //            SubFreeContent.Create();
 
             SubFreeContent.CreateMultiImage('file');
         }

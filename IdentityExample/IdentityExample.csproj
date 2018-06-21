@@ -2492,6 +2492,7 @@
     <Content Include="media\admin\js\Scripts\respond.min.js" />
     <Content Include="media\admin\js\Scripts\validate-app.js" />
     <Content Include="packages.config" />
+    <Content Include="upload\pd.jpg" />
     <Content Include="Views\FreeContent\Index.cshtml" />
     <Content Include="Areas\Admin\Views\web.config" />
     <Content Include="Areas\Admin\Views\FreeContent\Index.cshtml" />
@@ -2670,7 +2671,6 @@
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Admin\SubFreeContentImage\" />
     <Folder Include="Areas\Admin\Views\Test\" />
-    <Folder Include="upload\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
