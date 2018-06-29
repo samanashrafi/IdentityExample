@@ -79,9 +79,11 @@ namespace IdentityExample.Areas.Admin.Controllers
             {
                
                 //string path = Server.MapPath("~") + "Admin\\SubFreeContentImage\\" + uploadImage.FileName;
+                subFreeContent.Image = new Image();
 
                 if (file != null && file.ContentLength > 0)
                 {
+                    
                     var path = Server.MapPath("~") + "upload\\" + file.FileName;
                     subFreeContent.Image.Name = file.FileName;
                     subFreeContent.Image.Url = path;

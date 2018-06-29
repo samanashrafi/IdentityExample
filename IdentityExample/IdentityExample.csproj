@@ -2670,7 +2670,7 @@
   <ItemGroup>
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Admin\SubFreeContentImage\" />
-    <Folder Include="Areas\Admin\Views\Test\" />
+    <Folder Include="Areas\Admin\Views\FreeContent\Test\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
