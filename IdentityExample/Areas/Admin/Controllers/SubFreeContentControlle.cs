@@ -77,9 +77,8 @@ namespace IdentityExample.Areas.Admin.Controllers
             var files = Request.Files;
             if (ModelState.IsValid)
             {
-               
-                //string path = Server.MapPath("~") + "Admin\\SubFreeContentImage\\" + uploadImage.FileName;
-                subFreeContent.Image = new Image();
+             
+                subFreeContent.Image = new Image(); // for check not null
 
                 if (file != null && file.ContentLength > 0)
                 {
