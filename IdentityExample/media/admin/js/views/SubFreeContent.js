@@ -267,7 +267,7 @@ require(['JsonAction'], function (JsonAction) {
         SubFreeContent.SetDataUpdate("#edit-Condition", "Condition", false);
         SubFreeContent.SetDataUpdate("#FreeContentId", "FreeContentId", false);
 
-        SubFreeContent.PostUpdate();
+        SubFreeContent.PostUpdateMultiImage('edit-Image', 'SubFreeContent-update');
 
         //}
 
