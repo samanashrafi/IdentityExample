@@ -44,3 +44,4 @@ E:\Projects\IdentityExample\IdentityExample.DomainClasses\bin\Debug\Microsoft.As
 E:\Projects\IdentityExample\IdentityExample.DomainClasses\bin\Debug\Newtonsoft.Json.xml
 E:\Projects\IdentityExample\IdentityExample.DomainClasses\obj\Debug\IdentityExample.DomainClasses.dll
 E:\Projects\IdentityExample\IdentityExample.DomainClasses\obj\Debug\IdentityExample.DomainClasses.pdb
+E:\Projects\IdentityExample\IdentityExample.DomainClasses\obj\Debug\IdentityExample.DomainClasses.csprojResolveAssemblyReference.cache
