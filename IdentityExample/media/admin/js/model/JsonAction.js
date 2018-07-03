@@ -99,6 +99,8 @@ define(function () {
             parentThis.dataUpdate[parentThis.GetRowUpdate[i][1]] = $(parentThis.GetRowUpdate[i][0]).val();
         }
         console.log(parentThis.dataUpdate);
+        console.log(parentThis.SetUpdateUrl + '/' + parentThis.getID);
+
         $.ajax({
             headers: {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
@@ -168,27 +170,20 @@ define(function () {
     };
     JsonAction.prototype.PostUpdateMultiImage = function (fileInput, formName) {
         var parentThis = this;
-        //var files = $("#" + fileInput).get(0).files;
-        //console.log(files);
-        //var fileData = new FormData();
-
-        //for (var i = 0; i < files.length; i++) {
-        //    //fileData.push(files[i]);
-        //    fileData[i] = files[i];
-        //}
-        //console.log(fileData);
-        //this.dataCreate["Images"] = fileData;
         var files = $("#" + fileInput).get(0).files;
         this.dataUpdate["file"] = files;
 
-        var form = $(formName);
+        var form = document.getElementById('edit-SubFreeContent');
         var formdata = false;
-        console.log(form);
+
         if (window.FormData) {
-            formdata = new FormData(form[0]);
+            console.log('form', form);
+//            formdata = new FormData(this.dataCreate);
+
         }
+
         for (var i = 0; i < parentThis.GetRowUpdate.length; ++i) {
-            // this.dataCreate[parentThis.GetRowUpdate[i][1]] = $(parentThis.GetRowUpdate[i][0]).val();
+            // this.dataCreate[parentThis.GetRowCreate[i][1]] = $(parentThis.GetRowCreate[i][0]).val();
             if (parentThis.GetRowUpdate[i][2] == true) {
                 this.dataUpdate[parentThis.GetRowUpdate[i][0]] = parentThis.GetRowUpdate[i][1];
 
@@ -197,63 +192,67 @@ define(function () {
 
             }
         }
-
-        console.log(form.serialize());
-        //$.ajax({
-        //    url: parentThis.SetUpdateUrl,
-        //    dataType: 'json',
-        //    data: formdata ? formdata : form.serialize(),
-        //    method: "post",
-        //    //contentType: false,
-        //    contentType: false,
-        //    processData: false,
-        //    headers: {
-        //        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-        //    },
-        //    success: function (response) {
+        console.log('dataUpdate', this.dataUpdate);
+//        console.log('formdata', formdata);
 
 
-        //        $('.btn-clear').click();
+       
+        $.ajax({
+            url: parentThis.SetUpdateUrl + '/' + parentThis.getID,
+            dataType: 'json',
+//            data: formdata ? formdata : form.serialize(),
+            data: this.dataUpdate,
 
-        //        setTimeout(function () {
-        //            toastr.success(response.responseText)
-
-        //            ReloadTable(parentThis.TableName);
-        //        }, 500);
-
-        //    },
-        //    error: function (response) {
-        //        var json = response.responseJSON;
-        //        console.log('json', response);
-
-
-        //        if (json != "true") {
-
-        //            for (var i = 0; i < parentThis.GetRowUpdate.length; i++)
-
-        //                if (json[parentThis.GetRowUpdate[i][0]]) {
-        //                    highlight(parentThis.GetRowUpdate[i][0] + "has-error has-feedback", "has-success has-feedback", json[parentThis.GetRowUpdate[i][1]]);
-        //                }
-        //                else {
-        //                    unhighlight(parentThis.GetRowUpdate[i][0], "has-error has-feedback", "has-success has-feedback");
-        //                }
-
-        //        }
-
-        //        if (response.responseJSON["message"]) {
-        //            toastr.error(response.responseText);
-        //            return false;
-        //        }
-
-        //        if (json) {
-        //            toastr.error(" لطفا دوباره ورودی های خود را بررسی فرمایید...");
-        //            return false;
-        //        }
+            method: "post",
+//            contentType: true,
+//            processData: false,
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
+            success: function (response) {
 
 
-        //    }
+                $('.btn-clear').click();
 
-        //});
+                setTimeout(function () {
+                    toastr.success(response.responseText)
+
+                    ReloadTable(parentThis.TableName);
+                }, 500);
+
+            },
+            error: function (response) {
+                var json = response.responseJSON;
+                console.log('json', response);
+
+
+                if (json != "true") {
+
+                    for (var i = 0; i < parentThis.GetRowUpdate.length; i++)
+
+                        if (json[parentThis.GetRowUpdate[i][0]]) {
+                            highlight(parentThis.GetRowUpdate[i][0] + "has-error has-feedback", "has-success has-feedback", json[parentThis.GetRowUpdate[i][1]]);
+                        }
+                        else {
+                            unhighlight(parentThis.GetRowUpdate[i][0], "has-error has-feedback", "has-success has-feedback");
+                        }
+
+                }
+
+                if (response.responseJSON["message"]) {
+                    toastr.error(response.responseText);
+                    return false;
+                }
+
+                if (json) {
+                    toastr.error(" لطفا دوباره ورودی های خود را بررسی فرمایید...");
+                    return false;
+                }
+
+
+            }
+
+        });
     };
 
     JsonAction.prototype.Create = function () {
@@ -333,9 +332,11 @@ define(function () {
         var form = $('#reg-SubFreeContent');
         var formdata = false;
         console.log(form);
+
         if (window.FormData) {
             formdata = new FormData(form[0]);
         }
+
         for (var i = 0; i < parentThis.GetRowCreate.length; ++i) {
             // this.dataCreate[parentThis.GetRowCreate[i][1]] = $(parentThis.GetRowCreate[i][0]).val();
             if (parentThis.GetRowCreate[i][2] == true) {
@@ -358,7 +359,6 @@ define(function () {
             contentType: false,
             processData: false,
             cache: false,             // To unable request pages to be cached
-            //            contentType: 'application/x-www-form-urlencoded',
             headers: {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             },

@@ -149,7 +149,7 @@ require(['JsonAction'], function (JsonAction) {
             $('[data-toggle="tooltip"]').tooltip();
 
 
-
+            img_img = 0;
 
 
             $(parentThis.TableName).find(".edit-SubFreeContent").on("click", function (e, row) {
@@ -157,7 +157,7 @@ require(['JsonAction'], function (JsonAction) {
                 $('.Edit-Modal').click();
 
                 parentThis.getID = $(this).attr('data-id');
-
+               
                 //                alert('edit is click.');
                 //$("form[name='edit_SubFreeContent']").ClearForm_input();
                 //if ($('#edit-Condition').is(':checked')) {
@@ -176,6 +176,9 @@ require(['JsonAction'], function (JsonAction) {
                         var MetaKeyword = parentThis.GetRows[c]['MetaKeyword'];
                         var MetaDescription = parentThis.GetRows[c]['MetaDescription'];
                         var LongDescription = parentThis.GetRows[c]['LongDescription'];
+                        var Image_Url = parentThis.GetRows[c]['Image'].Url;
+                        var Image_Name = parentThis.GetRows[c]['Image'].Name;
+
 
                         $("#edit-Title").val(Title);
                         $("#edit-TitleEn").val(TitleEn);
@@ -185,17 +188,34 @@ require(['JsonAction'], function (JsonAction) {
                         $("#edit-MetaKeyword").val(MetaKeyword);
                         $("#edit-MetaDescription").val(MetaDescription);
                         $("#edit-LongDescription").val(LongDescription);
+                        console.log('Image_Url', Image_Url);
+
+                        var indexOf = Image_Url.lastIndexOf('upload')
+                        console.log('indexOf', indexOf);
+
+                        Image_Url = Image_Url.slice(indexOf + 7)
+                        console.log('Image_Url', Image_Url);
+
                         //                        $("#edit-Images").attr('src', parentThis.GetRows[c]['Image']['Url']);
 
-//                        $("#edit-Images").attr('src', '/upload/pd.jpg');
-                        $('.img-inner').append(
-                            '<div class="remove-img">' +
+                        //                        $("#edit-Images").attr('src', '/upload/pd.jpg');
+                        if (img_img == 0) {
+                            $('.img-inner').append(
+
+                           ' <div class="col-xs-4">' +
+                           '<div class="remove-img">' +
                                 '<i class="fa fa-trash"></i>' +
                             '</div>' +
-                           ' <div class="col-xs-4">' +
-                               '<img id="edit-Images" src="/upload/pd.jpg" class="img-responsive " />' +
+                               '<img id="edit-images-update" src=' + '/upload/'+Image_Url + ' class="img-responsive " />' +
                             '</div>'
                             );
+                            img_img = 1;
+                        } else {
+                            $("#edit-images-update").attr('src', '/upload/'+Image_Url );
+                            console.log(img_img);
+
+                        }
+
                         $('.remove-img').click(function () {
                             $('.img-inner').html('');
                         })
@@ -233,20 +253,20 @@ require(['JsonAction'], function (JsonAction) {
         var files = this.files[0];
         var tmppath = URL.createObjectURL(event.target.files[0]);
         console.log(tmppath);
-        $("#edit-Images").attr('src', tmppath);
+        $("#edit-images-update").attr('src', tmppath);
     });
 
-    
+
 
     $("#SubFreeContent-update").click(function () {
         //if ($("form[name='edit_SubFreeContent']").valid()) {
 
         SubFreeContent.SetDataUpdate("#edit-Title", "Title", false);
         SubFreeContent.SetDataUpdate("#edit-TitleEn", "TitleEn", false);
-
-        if ($('#edit-Priority').val() != "") {
-            SubFreeContent.SetDataUpdate("#edit-Priority", "Priority", false);
-        }
+//
+//        if ($('#edit-Priority').val() != "") {
+//            SubFreeContent.SetDataUpdate("#edit-Priority", "Priority", false);
+//        }
 
         if ($('#edit-MetaKeyword').val() != "") {
             SubFreeContent.SetDataUpdate("#edit-MetaKeyword", "MetaKeyword", false);
@@ -266,8 +286,11 @@ require(['JsonAction'], function (JsonAction) {
 
         SubFreeContent.SetDataUpdate("#edit-Condition", "Condition", false);
         SubFreeContent.SetDataUpdate("#FreeContentId", "FreeContentId", false);
+//        SubFreeContent.SetDataUpdate("#edit-images-update", "", false);
+
 
         SubFreeContent.PostUpdateMultiImage('edit-Image', 'SubFreeContent-update');
+//        SubFreeContent.PostUpdate();
 
         //}
 

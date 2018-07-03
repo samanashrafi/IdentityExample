@@ -248,6 +248,7 @@ ModelManifest.xml
 */**/obj/Debug
 */**/obj/Release
 
+
 /build/
 *.suo
 *.user

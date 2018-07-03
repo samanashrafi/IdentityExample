@@ -94,8 +94,8 @@ namespace IdentityExample.ServiceLayer
             model.ShortDescription = subFreeContent.ShortDescription;
             model.ShortDescription2 = subFreeContent.ShortDescription2;
             model.Title = subFreeContent.Title;
-            model.Image.Name = subFreeContent.Image.Name;
-            model.Image.Url = subFreeContent.Image.Url;
+            //model.Image.Name = subFreeContent.Image.Name;
+            //model.Image.Url = subFreeContent.Image.Url;
             //model.Id = subFreeContent.Id;
             _uow.MarkAsChanged(model);
             _uow.SaveAllChanges();

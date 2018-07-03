@@ -353,3 +353,4 @@ E:\Projects\IdentityExample\IdentityExample\bin\System.Net.Http.Formatting.xml
 E:\Projects\IdentityExample\IdentityExample\obj\Debug\IdentityExample.csprojResolveAssemblyReference.cache
 E:\Projects\IdentityExample\IdentityExample\obj\Debug\IdentityExample.dll
 E:\Projects\IdentityExample\IdentityExample\obj\Debug\IdentityExample.pdb
+E:\Projects\IdentityExample\IdentityExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
