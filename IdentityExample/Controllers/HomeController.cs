@@ -3,6 +3,7 @@ using IdentityExample.ServiceLayer.Contracts;
 
 namespace IdentityExample.Controllers
 {
+   
     public class HomeController : Controller
     {
         private readonly IApplicationUserManager _userManager;
@@ -30,6 +31,11 @@ namespace IdentityExample.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        public ActionResult Header()
+        {
+            return PartialView("~/Views/Shared/_Header.cshtml");
         }
 
         public ActionResult GetData()

@@ -248,6 +248,8 @@ ModelManifest.xml
 */**/obj/Debug
 */**/obj/Release
 
+*/**/obj/Release
+*/.vs/IdentityExample/v14
 
 /build/
 *.suo
@@ -261,6 +263,7 @@ Release/
 *.opensdf
 *.tlog
 *.log
+*.cache
 TestResult.xml
 *.VisualState.xml
 Version.cs

@@ -1,29 +1,52 @@
-﻿<!DOCTYPE html>
+﻿
+
+
+<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="امانت بار تهران مفتخر است با بهتربن ماشین ها و رانندگان ماهر به تمامی شهروندان عزیز تهران، در مناطق مختلف که شامل غرب، شرق و شمال  تهران می باشد سرویس دهی لازم را انجام دهد">
+    <meta name="author" content="">
+    <!-- Add Your favicon here -->
+    <!--<link rel="icon" href="img/favicon.ico">-->
 
+    <title>حمل و نقل اسباب اساسی منزل و محل کار - امانت بار تهران</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="~/media/endUser/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/media/endUser/css/bootstrap.css" rel="stylesheet" />
+
+    <link href="~/media/endUser/css/bootstrap-rtl.css" rel="stylesheet" />
+    <link href="~/media/endUser/css/baseStyle.css" rel="stylesheet" />
+    <!-- Animation CSS -->
+    <link href="~/media/endUser/css/animate.min.css" rel="stylesheet">
+
+    <link href="~/media/endUser/css/index.css" rel="stylesheet">
+    <link href="~/media/endUser/css/mediaScreen.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- Custom styles for this template -->
+    <!--<link href="css/style.css" rel="stylesheet">-->
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-           hi home
-        </div>
-    </div>
+    @Html.Action("Header", "Home")
+
     <div class="container body-content">
         @RenderBody()
+        <p> this is </p>
         <hr />
         <footer>
             <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
         </footer>
     </div>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
+    <script src="~/media/endUser/js/jquery-2.1.1.js"></script>
+    <script src="~/media/endUser/js/bootstrap.min.js"></script>
+    <script src="~/media/endUser/js/persianumber.min.js"></script>
+    <script src="~/media/endUser/js/main.js"></script>
     @RenderSection("scripts", required: false)
 </body>
 </html>
+
