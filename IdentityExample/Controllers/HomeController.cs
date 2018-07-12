@@ -18,6 +18,26 @@ namespace IdentityExample.Controllers
             return View();
         }
 
+        public ActionResult Silder()
+        {
+            return View();
+        }
+
+        public ActionResult Services()
+        {
+            return View();
+        }
+
+        public ActionResult Ads()
+        {
+            return View();
+        }
+
+        public ActionResult Area()
+        {
+            return View();
+        }
+
         [Authorize]
         public ActionResult About()
         {
@@ -37,7 +57,10 @@ namespace IdentityExample.Controllers
         {
             return PartialView("~/Views/Shared/_Header.cshtml");
         }
-
+        public ActionResult Footer()
+        {
+            return PartialView("~/Views/Shared/_Footer.cshtml");
+        }
         public ActionResult GetData()
         {
             var applicationUser = _userManager.GetCurrentUser();

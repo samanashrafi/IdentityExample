@@ -2688,6 +2688,10 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_EndUserLayOut.cshtml" />
     <Content Include="Views\Shared\_Header.cshtml" />
+    <Content Include="Views\Home\Silder.cshtml" />
+    <Content Include="Views\Home\Services.cshtml" />
+    <Content Include="Views\Home\Ads.cshtml" />
+    <Content Include="Views\Home\Area.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

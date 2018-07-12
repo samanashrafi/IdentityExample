@@ -93,12 +93,9 @@
 
     <div class="container body-content">
         @RenderBody()
-        <p> this is </p>
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
     </div>
+    @Html.Partial("_Footer")
+
 
     <script src="~/media/endUser/js/jquery-2.1.1.js"></script>
     <script src="~/media/endUser/js/bootstrap.min.js"></script>
