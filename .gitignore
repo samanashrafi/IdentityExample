@@ -224,6 +224,10 @@ FakesAssemblies/
 *.opt
 
 *.su
+*.suo
+*.config
+*.cache
+*.txt
 
 # Visual Studio LightSwitch build output
 **/*.HTMLClient/GeneratedArtifacts
@@ -269,3 +273,4 @@ TestResult.xml
 Version.cs
 Version.h
 Version.cpp
+.vs/
