@@ -2692,6 +2692,7 @@
     <Content Include="Views\Home\Services.cshtml" />
     <Content Include="Views\Home\Ads.cshtml" />
     <Content Include="Views\Home\Area.cshtml" />
+    <Content Include="Views\ContactUs\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -2758,6 +2759,7 @@
     <Compile Include="Areas\Admin\Controllers\SubItemController.cs" />
     <Compile Include="Areas\Admin\Controllers\TestController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ContactUsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MyHeaderController.cs" />
