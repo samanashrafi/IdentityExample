@@ -256,7 +256,7 @@ ModelManifest.xml
 */.vs/IdentityExample/v14
 
 /build/
-*.suo
+.suo
 *.user
 _ReSharper.*/
 *.sdf
