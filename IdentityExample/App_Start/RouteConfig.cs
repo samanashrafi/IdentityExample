@@ -15,6 +15,8 @@ namespace IdentityExample
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
                 //defaults: new[] { "IdentityExample.Areas.Admin.Controllers" }
             );
+
+
             //routes.MapRoute(
             //    "Default", // Route name
             //    "{controller}/{action}/{id}", // URL with parameters

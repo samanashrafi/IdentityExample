@@ -29,6 +29,12 @@ namespace IdentityExample.ServiceLayer
             return _freeContents.Include(x => x.SubFreeContents).ToList();
         }
 
+        public List<FreeContent> GeFreeContentByType(string type)
+        {
+            var model = _freeContents.Where(p => p.Type == type).ToList();
+            return model;
+        }
+
         public FreeContent GetById(int id)
         {
             var model = _freeContents

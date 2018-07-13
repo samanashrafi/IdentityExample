@@ -2693,6 +2693,14 @@
     <Content Include="Views\Home\Ads.cshtml" />
     <Content Include="Views\Home\Area.cshtml" />
     <Content Include="Views\ContactUs\Index.cshtml" />
+    <Content Include="Views\Home\_Silder.cshtml" />
+    <Content Include="Views\Home\_Services.cshtml" />
+    <Content Include="Views\Home\_Ads.cshtml" />
+    <Content Include="Views\Home\_Area.cshtml" />
+    <Content Include="Views\Home\_About.cshtml" />
+    <Content Include="Views\Home\_Contact.cshtml" />
+    <Content Include="Views\Home\_Header.cshtml" />
+    <Content Include="Views\Home\_Footer.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

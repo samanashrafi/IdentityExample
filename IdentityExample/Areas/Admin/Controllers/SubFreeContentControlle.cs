@@ -145,6 +145,7 @@ namespace IdentityExample.Areas.Admin.Controllers
             return Json("حذف آیتم انجام شد.", JsonRequestBehavior.AllowGet);
             //return RedirectToAction("Index");
         }
+
         [HttpPost]
         public JsonResult MultiDelete(List<int> id)
         {

@@ -64,6 +64,12 @@ namespace IdentityExample.ServiceLayer
             _uow.SaveAllChanges();
         }
 
+        public List<SubFreeContent> GetSubFreeContentByType(string type)
+        {
+            var model = _subFreeContents.Where(p => p.FreeContent.Type == type).ToList();
+            return model;
+        }
+
         public IEnumerable<SubFreeContent> GetAll()
         {
             var model = _subFreeContents.ToList();

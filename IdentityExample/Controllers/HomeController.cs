@@ -1,5 +1,6 @@
 ﻿using System.Web.Mvc;
 using IdentityExample.ServiceLayer.Contracts;
+using IdentityExample.ServiceLayer;
 
 namespace IdentityExample.Controllers
 {
@@ -7,9 +8,14 @@ namespace IdentityExample.Controllers
     public class HomeController : Controller
     {
         private readonly IApplicationUserManager _userManager;
-        public HomeController(IApplicationUserManager userManager)
+        readonly FreeContentService _freeContentService;
+        readonly SubFreeContentService _subFreeContentService;
+
+        public HomeController(IApplicationUserManager userManager, FreeContentService freeContentService, SubFreeContentService subFreeContentService)
         {
             _userManager = userManager;
+            _freeContentService = freeContentService;
+            _subFreeContentService = subFreeContentService;
         }
 
 
@@ -20,46 +26,57 @@ namespace IdentityExample.Controllers
 
         public ActionResult Silder()
         {
-            return View();
+            var model = _subFreeContentService.GetSubFreeContentByType("Silder");
+            return PartialView("_Silder", model);
         }
 
         public ActionResult Services()
         {
-            return View();
+            var model = _freeContentService.GeFreeContentByType("Services");
+            return PartialView("_Services", model);
         }
 
         public ActionResult Ads()
         {
-            return View();
+            var model = _freeContentService.GeFreeContentByType("Ads");
+
+            return PartialView("_Ads", model);
         }
 
         public ActionResult Area()
         {
-            return View();
+            var model = _freeContentService.GeFreeContentByType("Area");
+
+            return PartialView("_Area", model);
         }
 
         [Authorize]
         public ActionResult About()
         {
+            var model = _freeContentService.GeFreeContentByType("About");
             ViewBag.Message = "Your app description page.";
 
-            return View();
+            return PartialView("_About", model);
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            var model = _freeContentService.GeFreeContentByType("Contact");
 
-            return View();
+            ViewBag.Message = "Your contact page.";
+            return PartialView("_Contact", model);
         }
 
         public ActionResult Header()
         {
-            return PartialView("~/Views/Shared/_Header.cshtml");
+            var model = _freeContentService.GeFreeContentByType("Header");
+
+            return PartialView("_Header", model);
         }
         public ActionResult Footer()
         {
-            return PartialView("~/Views/Shared/_Footer.cshtml");
+            var model = _freeContentService.GeFreeContentByType("Footer");
+            return PartialView("_Footer", model);
         }
         public ActionResult GetData()
         {
