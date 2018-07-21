@@ -1,9 +1,17 @@
 ﻿@model List<IdentityExample.DomainClasses.SubFreeContent>
 
-<div>
+@{
+    ViewBag.Title = "Services";
+    Layout = "";
+}
+
+<section id="package" class="container-width">
     @foreach (var item in Model)
     {
-        <div>@item.Title</div>
+        <img  alt="@item.Image.Name" title="@item.Image.Name" src="~/upload/@item.Image.Url" />
     }
-</div>
+</section>
+
+
+
 

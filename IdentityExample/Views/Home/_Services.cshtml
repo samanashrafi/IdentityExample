@@ -1,9 +1,36 @@
 ﻿@model List<IdentityExample.DomainClasses.SubFreeContent>
 
-<div>
-    @foreach (var item in Model)
-    {
-        <div>@item.Title</div>
-    }
-</div>
+@{
+    ViewBag.Title = "Services";
+    Layout = "";
+}
 
+
+<section class="container-width margin-tb">
+    <div class="container ">
+        <div class="row ">
+            <h2 class="color-1 header-h2 text-center">خدمات امانت بار تهران</h2>
+            <p class="text-center">ما در امانت بار تهران انواع ماشین های حمل و نقل، کارگران و به خصوص بسته بندی وسایل منزل می پردازیم.</p>
+
+            @foreach (var item in Model)
+            {
+                <article class="col-md-4 col-sm-4">
+                    <div class="service-layout">
+                        <div class="service-img">
+                            <img  alt="@item.Image.Name" title="@item.Image.Name" src="~/upload/@item.Image.Url" />
+
+                        </div>
+                        <h2 class="color-2">@item.Title</h2>
+                        <p>@item.LongDescription </p>
+                        @*<a href="" class="button">
+                            <span>بشتر بدانید</span>
+                        </a>*@
+                    </div>
+                </article>
+            }
+
+            
+        </div>
+    </div>
+
+</section>

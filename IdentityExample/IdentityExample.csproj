@@ -2473,7 +2473,7 @@
     <Content Include="Areas\Admin\Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_Empty.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_SignOut.cshtml" />
-    <Content Include="Areas\Admin\Views\SubFreeContent\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\SubFreeContent\Index2.cshtml" />
     <Content Include="Areas\Admin\Views\SubFreeContent\_Create.cshtml" />
     <Content Include="Areas\Admin\Views\SubFreeContent\_Edit.cshtml" />
     <Content Include="Areas\Admin\Views\FreeContent\DashboardItems.cshtml" />
@@ -2482,6 +2482,7 @@
     <Content Include="bin\roslyn\Microsoft.VisualBasic.Core.targets" />
     <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
     <Content Include="bin\IdentityExample.dll.config" />
+    <Content Include="Areas\Admin\Views\SubFreeContent\Index.cshtml" />
     <None Include="media\admin\js\Scripts\jquery.validate-vsdoc.js" />
     <Content Include="media\admin\js\Scripts\jquery.validate.js" />
     <Content Include="media\admin\js\Scripts\jquery.validate.min.js" />
@@ -2699,8 +2700,6 @@
     <Content Include="Views\Home\_Area.cshtml" />
     <Content Include="Views\Home\_About.cshtml" />
     <Content Include="Views\Home\_Contact.cshtml" />
-    <Content Include="Views\Home\_Header.cshtml" />
-    <Content Include="Views\Home\_Footer.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

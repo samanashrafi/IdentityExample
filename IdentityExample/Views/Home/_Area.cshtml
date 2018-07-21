@@ -1,10 +1,53 @@
 ﻿@model List<IdentityExample.DomainClasses.SubFreeContent>
 
+@{
+    ViewBag.Title = "Services";
+    Layout = "";
+}
 <div>
-    @foreach (var item in Model)
-    {
-        <div>@item.Title</div>
-    }
+
 </div>
 
 
+
+
+
+
+
+<section id="whe-here" class="container-width  margin-tb">
+    <div class="container">
+        <div class="row ">
+            <h2 class="color-1 header-h2 text-center">مناطق قابل سرویس</h2>
+            <p class="text-center color-1">ما در مناطق شمال، غرب و شرق تهران بهترین سرویس دهی را به شما ارائه می دهیم .</p>
+
+            @foreach (var item in Model)
+            {
+                <article class="col-md-4 col-sm-4">
+                    <a href="" class="street-layout transition">
+                        <div class="comment transition">
+                            <i class="fa fa-comment-o"></i>
+                            @item.LikeCount
+                        </div>
+                        <p class="transition">
+                            <i class="fa fa-clock-o"></i>
+                            جمعه 6 بهمن 1396
+                        </p>
+                        <img class="img-responsive transition" alt="@item.Image.Name" title="@item.Image.Name" src="~/upload/@item.Image.Url" />
+
+                        <h3 class="transition">
+                            <i class="fa fa-map-marker"></i>
+                            @item.Title
+                        </h3>
+
+                    </a>
+                </article>
+            }
+            @*<div class="col-md-12 col-sm-12">
+                    <a href="" class="button">
+                        <span> تمام محله ها</span>
+                    </a>
+                </div>*@
+        </div>
+    </div>
+
+</section>

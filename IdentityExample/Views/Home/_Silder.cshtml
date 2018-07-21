@@ -1,9 +1,33 @@
 ﻿
 @model List<IdentityExample.DomainClasses.SubFreeContent>
     
-<div>
-   @foreach (var item in Model)
-   {
-       <div>@item.Title</div>
-   }
+
+
+<div id="div-layerSlider-place">
+    
+    @foreach (var item in Model)
+    {
+        <div id="div-layerSlider-can">
+
+            <a class="a_slider_mob" href="#">
+                <img class="img_slider_mob img-responsive" alt="@item.Image.Name" title="@item.Image.Name" src="~/upload/@item.Image.Url" />
+            </a>
+            <!--<a class="a_slider_mob" href="#">
+                <img class="img_slider_mob" alt="1" src="img/header_two.jpg"/>
+            </a>-->
+        </div>
+    }
+
+    @*<a id="slider-forward"> <span class="fa fa-angle-right"></span> </a>
+    <a id="slider-backward"><span class="fa fa-angle-left"></span> </a>
+
+    <div id="div-slider-btn-can">
+        <div id="div-slider-btn-place">
+
+            <a id="slider-pin-1" class="slider-pin" href="#" data-index="1"></a>
+
+        </div>
+    </div>*@
+
+
 </div>

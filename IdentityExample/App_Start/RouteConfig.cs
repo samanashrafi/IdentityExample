@@ -17,12 +17,12 @@ namespace IdentityExample
             );
 
 
-            //routes.MapRoute(
-            //    "Default", // Route name
-            //    "{controller}/{action}/{id}", // URL with parameters
-            //    new { area = "Admin", controller = "FreeContent", action = "Index", id = UrlParameter.Optional }, // Parameter defaults
-            //    new[] { "IdentityExample.Areas.Admin.Controllers" }
-            //).DataTokens.Add("area", "Admin");
+            routes.MapRoute(
+                "Admin", // Route name
+                "{controller}/{action}/{id}", // URL with parameters
+                new { area = "Admin", controller = "Account", action = "Login", id = UrlParameter.Optional }, // Parameter defaults
+                new[] { "IdentityExample.Areas.Admin.Controllers" }
+            ).DataTokens.Add("area", "Admin");
         }
     }
 }

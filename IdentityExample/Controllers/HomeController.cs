@@ -32,20 +32,20 @@ namespace IdentityExample.Controllers
 
         public ActionResult Services()
         {
-            var model = _freeContentService.GeFreeContentByType("Services");
+            var model = _subFreeContentService.GetSubFreeContentByType("Services");
             return PartialView("_Services", model);
         }
 
         public ActionResult Ads()
         {
-            var model = _freeContentService.GeFreeContentByType("Ads");
+            var model = _subFreeContentService.GetSubFreeContentByType("Ads");
 
             return PartialView("_Ads", model);
         }
 
         public ActionResult Area()
         {
-            var model = _freeContentService.GeFreeContentByType("Area");
+            var model = _subFreeContentService.GetSubFreeContentByType("Area");
 
             return PartialView("_Area", model);
         }
@@ -53,7 +53,7 @@ namespace IdentityExample.Controllers
         [Authorize]
         public ActionResult About()
         {
-            var model = _freeContentService.GeFreeContentByType("About");
+            var model = _subFreeContentService.GetSubFreeContentByType("About");
             ViewBag.Message = "Your app description page.";
 
             return PartialView("_About", model);
@@ -61,23 +61,13 @@ namespace IdentityExample.Controllers
 
         public ActionResult Contact()
         {
-            var model = _freeContentService.GeFreeContentByType("Contact");
+            var model = _subFreeContentService.GetSubFreeContentByType("Contact");
 
             ViewBag.Message = "Your contact page.";
             return PartialView("_Contact", model);
         }
 
-        public ActionResult Header()
-        {
-            var model = _freeContentService.GeFreeContentByType("Header");
-
-            return PartialView("_Header", model);
-        }
-        public ActionResult Footer()
-        {
-            var model = _freeContentService.GeFreeContentByType("Footer");
-            return PartialView("_Footer", model);
-        }
+        
         public ActionResult GetData()
         {
             var applicationUser = _userManager.GetCurrentUser();
