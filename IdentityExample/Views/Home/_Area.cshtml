@@ -12,8 +12,6 @@
 
 
 
-
-
 <section id="whe-here" class="container-width  margin-tb">
     <div class="container">
         <div class="row ">
@@ -23,7 +21,7 @@
             @foreach (var item in Model)
             {
                 <article class="col-md-4 col-sm-4">
-                    <a href="" class="street-layout transition">
+                    <a href="~/post/@item.Id" class="street-layout transition">
                         <div class="comment transition">
                             <i class="fa fa-comment-o"></i>
                             @item.LikeCount
@@ -38,7 +36,7 @@
                             <i class="fa fa-map-marker"></i>
                             @item.Title
                         </h3>
-
+                       
                     </a>
                 </article>
             }

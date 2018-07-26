@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bootgrid\Bootgrid.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="ErrorList.cs" />
     <Compile Include="Identities\Address.cs" />
     <Compile Include="Identities\ApplicationUser.cs" />

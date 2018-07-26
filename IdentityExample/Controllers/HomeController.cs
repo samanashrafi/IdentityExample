@@ -67,6 +67,11 @@ namespace IdentityExample.Controllers
             return PartialView("_Contact", model);
         }
 
+        public ActionResult Details(int id)
+        {
+            return View();
+        }
+
         
         public ActionResult GetData()
         {
