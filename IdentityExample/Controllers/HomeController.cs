@@ -69,7 +69,8 @@ namespace IdentityExample.Controllers
 
         public ActionResult Details(int id)
         {
-            return View();
+            var model = _subFreeContentService.GetSubByFreeContentId(id);
+            return View(model);
         }
 
         
