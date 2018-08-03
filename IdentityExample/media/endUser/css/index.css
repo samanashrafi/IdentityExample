@@ -411,12 +411,11 @@ a {
 */
 
 .street-layout {
+    background: #eee;
     position: relative;
     background: #eee;
     margin: 30px auto;
-    position: relative;
-    background: #eee;
-    margin: 30px auto;
+    height: 279px;
     float: right;
     box-shadow: inset 0 0 14px black;
     width: 100%;
@@ -446,13 +445,19 @@ a {
     }
 
     .street-layout img {
-        filter: grayscale(100%);
+        filter: grayscale(0%);
         display: block;
+        /* background-size: cover; */
+        position: absolute;
+        /* background-position: center center; */
+        top: 0;
+        left: 0;
+        width: 100%;
     }
 
-    .street-layout:hover img {
+    /*.street-layout:hover img {
         filter: grayscale(0%);
-    }
+    }*/
 
     .street-layout:hover h3, .street-layout:hover i:last-child {
         bottom: 30px;
@@ -509,7 +514,22 @@ a {
     }
 
 
+.news-layout {
+   margin-bottom:15px;
+}
 
+    .news-layout j4 {
+
+    }
+
+    .news-layout p {
+    }
+
+    .news-layout a {
+    }
+
+        .news-layout a:hover {
+        }
 /*---------
       footer
   ---------

@@ -188,37 +188,37 @@ require(['JsonAction'], function (JsonAction) {
                         $("#edit-MetaKeyword").val(MetaKeyword);
                         $("#edit-MetaDescription").val(MetaDescription);
                         $("#edit-LongDescription").val(LongDescription);
-                        console.log('Image_Url', Image_Url);
+                        //console.log('Image_Url', Image_Url);
 
-                        var indexOf = Image_Url.lastIndexOf('upload')
-                        console.log('indexOf', indexOf);
+                        //var indexOf = Image_Url.lastIndexOf('upload')
+                        //console.log('indexOf', indexOf);
 
-                        Image_Url = Image_Url.slice(indexOf + 7)
-                        console.log('Image_Url', Image_Url);
+                        //Image_Url = Image_Url.slice(indexOf + 7)
+                        //console.log('Image_Url', Image_Url);
 
                         //                        $("#edit-Images").attr('src', parentThis.GetRows[c]['Image']['Url']);
 
                         //                        $("#edit-Images").attr('src', '/upload/pd.jpg');
-                        if (img_img == 0) {
-                            $('.img-inner').append(
+                        //if (img_img == 0) {
+                        //    $('.img-inner').append(
 
-                           ' <div class="col-xs-4">' +
-                           '<div class="remove-img">' +
-                                '<i class="fa fa-trash"></i>' +
-                            '</div>' +
-                               '<img id="edit-images-update" src=' + '/upload/'+Image_Url + ' class="img-responsive " />' +
-                            '</div>'
-                            );
-                            img_img = 1;
-                        } else {
-                            $("#edit-images-update").attr('src', '/upload/'+Image_Url );
-                            console.log(img_img);
+                        //   ' <div class="col-xs-4">' +
+                        //   '<div class="remove-img">' +
+                        //        '<i class="fa fa-trash"></i>' +
+                        //    '</div>' +
+                        //       '<img id="edit-images-update" src=' + '/upload/'+Image_Url + ' class="img-responsive " />' +
+                        //    '</div>'
+                        //    );
+                        //    img_img = 1;
+                        //} else {
+                        //    $("#edit-images-update").attr('src', '/upload/'+Image_Url );
+                        //    console.log(img_img);
 
-                        }
+                        //}
 
-                        $('.remove-img').click(function () {
-                            $('.img-inner').html('');
-                        })
+                        //$('.remove-img').click(function () {
+                        //    $('.img-inner').html('');
+                        //})
                         //if (Condition == 1) {
                         //    $("#edit-Condition").click();
                         //}

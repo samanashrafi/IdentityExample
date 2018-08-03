@@ -46,10 +46,20 @@ namespace IdentityExample.Controllers
         public ActionResult Area()
         {
             var model = _subFreeContentService.GetSubFreeContentByType("Area");
-
             return PartialView("_Area", model);
         }
 
+        public ActionResult News()
+        {
+            var model = _subFreeContentService.GetSubFreeContentByType("News");
+            return PartialView("_News", model);
+        }
+        public ActionResult Menu()
+        {
+            var model = _subFreeContentService.GetSubFreeContentByType("Menu");
+
+            return PartialView("_Menu", model);
+        }
         [Authorize]
         public ActionResult About()
         {
