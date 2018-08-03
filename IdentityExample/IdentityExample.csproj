@@ -2701,7 +2701,6 @@
     <Content Include="Views\Home\_About.cshtml" />
     <Content Include="Views\Home\_Contact.cshtml" />
     <Content Include="Views\Home\Details.cshtml" />
-    <Content Include="Views\Home\_Menu.cshtml" />
     <Content Include="Views\List\AreaList.cshtml" />
     <Content Include="Views\List\Details.cshtml" />
     <Content Include="Views\Home\_News.cshtml" />

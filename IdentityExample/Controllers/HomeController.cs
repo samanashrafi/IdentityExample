@@ -54,12 +54,7 @@ namespace IdentityExample.Controllers
             var model = _subFreeContentService.GetSubFreeContentByType("News");
             return PartialView("_News", model);
         }
-        public ActionResult Menu()
-        {
-            var model = _subFreeContentService.GetSubFreeContentByType("Menu");
-
-            return PartialView("_Menu", model);
-        }
+       
         [Authorize]
         public ActionResult About()
         {
