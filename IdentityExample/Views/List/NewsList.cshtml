@@ -1,0 +1,37 @@
+﻿@model List<IdentityExample.DomainClasses.SubFreeContent>
+
+@{
+    ViewBag.Title = "AreaList";
+    Layout = "~/Views/Shared/_EndUserLayOut.cshtml";
+}
+
+<section class="section-lg">
+    <div id="whe-here">
+        <div class="container">
+            <div class="row ">
+                <h2 class="color-1 header-h2 text-center">وبلاگ</h2>
+                <p class="text-center color-1">ما در اینجا به آخرین اخبار، رویدادها، نکات مهم در اسباب کشی و مطالب جالب در مورد املاک مستغلات می پردازیم .</p>
+                @foreach (var item in Model)
+                {
+                    <article class="col-md-4 col-sm-4">
+                        <div class="news-layout transition">
+                            @*~/post/@item.Id*@
+                            <h4>
+                                @item.Title
+                            </h4>
+                            <p>
+                                @item.ShortDescription
+                            </p>
+                            <a href="/List/Details/@item.Id" class="transition">
+                                ادامه مطلب...
+                            </a>
+                        </div>
+                    </article>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+
+

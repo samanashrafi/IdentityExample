@@ -43,6 +43,10 @@
     .street-layout h3 {
         font-size: 1.2em;
     }
+
+     .about-service-layout{
+        display:inherit;
+    }
 }
 
 
@@ -91,11 +95,17 @@
     footer {
         font-size: 0.9em;
     }
+
+    .about-service-layout{
+        display:inherit;
+    }
+
+    
 }
 
 
 @media screen and (max-width: 1024px) and (min-width: 769px) {
-
+     
     #slider-forward, #slider-backward {
         font-size: 4em;
     }
@@ -124,6 +134,7 @@
     .collapse{
         opacity:1;
      }
+    
 }
 
 
@@ -214,6 +225,9 @@
         
       
         
+    }
+     .about-service-layout{
+        display:inherit;
     }
     /*.collapse{
         visibility: hidden;

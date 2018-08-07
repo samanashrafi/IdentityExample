@@ -10,8 +10,8 @@
 <section id="whe-here" class="container-width  margin-tb">
     <div class="container">
         <div class="row ">
-            <h2 class="color-1 header-h2 text-center">آخرین مطالب</h2>
-
+            <h2 class="color-1 header-h2 text-center">وبلاگ</h2>
+            <p class="text-center color-1">ما در اینجا به آخرین اخبار، رویدادها، نکات مهم در اسباب کشی و مطالب جالب در مورد املاک مستغلات می پردازیم .</p>
             @foreach (var item in Model)
             {
                 <article class="col-md-4 col-sm-4">
@@ -23,14 +23,14 @@
                         <p>
                             @item.ShortDescription
                         </p>
-                        <a href="/details/@item.Id" class="transition">
-                            ادامه
+                        <a href="/List/Details/@item.Id" class="transition">
+                              ادامه مطلب...
                         </a>
                     </div>
                 </article>
             }
-            <div class="col-md-12 col-sm-12">
-                <a href="List/AreaList" class="button">
+            <div class="col-md-12 listcol-sm-12">
+                <a href="List/NewsList" class="button">
                     <span> تمام محله ها</span>
                 </a>
             </div>

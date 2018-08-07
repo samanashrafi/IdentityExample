@@ -4779,6 +4779,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     .container-fluid > .navbar-collapse {
         margin-right: 0;
         margin-left: 0;
+        width:100%;
     }
 }
 

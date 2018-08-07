@@ -1,0 +1,21 @@
+﻿@model List<IdentityExample.DomainClasses.SubFreeContent>
+
+@{
+    ViewBag.Title = "Services";
+    Layout = "";
+}
+
+<div class="row ">
+    @foreach (var item in Model)
+            {
+        <article class=" col-sm-6 col-md-4">
+            <div class="about-service-layout transition">
+                <div class="about-service-img">
+                    <img alt="@item.Title" title="@item.Title" src="~/upload/@item.Image.Url" />
+                </div>
+                <h2 class="color-2">@item.Title</h2>
+            </div>
+        </article>
+    }
+</div>
+

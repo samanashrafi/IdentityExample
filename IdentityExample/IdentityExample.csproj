@@ -2704,6 +2704,9 @@
     <Content Include="Views\List\AreaList.cshtml" />
     <Content Include="Views\List\Details.cshtml" />
     <Content Include="Views\Home\_News.cshtml" />
+    <Content Include="Views\AboutMe\Index.cshtml" />
+    <Content Include="Views\AboutMe\Services.cshtml" />
+    <Content Include="Views\List\NewsList.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -2769,6 +2772,7 @@
     <Compile Include="Areas\Admin\Controllers\FreeContentController.cs" />
     <Compile Include="Areas\Admin\Controllers\SubItemController.cs" />
     <Compile Include="Areas\Admin\Controllers\TestController.cs" />
+    <Compile Include="Controllers\AboutMeController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ContactUsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />

@@ -5,9 +5,10 @@
    */
 
     $('*').persiaNumber();
+    $('.body-content').css('min-height', $(window).height() - ($('.navbar-wrapper').height() - $('footer').height()) - 15 + 'px');
+
 
     /*
-
     ----------------> dropdown menu
     */
 

@@ -6,22 +6,23 @@
     var item = Model;
 }
 
+<section class="section-lg">
+    <div class="container">
+        <div class="row">
+            <article class="col-md-6 col-sm-6">
+                <img class="img-responsive transition" alt="@item.Image.Name" title="@item.Image.Name" src="~/upload/@item.Image.Url" />
+            </article>
+            <article class="col-md-6 col-sm-6">
+                <h2 class="">
+                    @item.Title
+                </h2>
+                <p>
+                    @item.LongDescription
+                </p>
+            </article>
+        </div>
+    </div>
+</section>
 
 
-<div class="container">
-    
-          <div class="row">
-              <article class="col-md-6 col-sm-6">
-                  <img class="img-responsive transition" alt="@item.Image.Name" title="@item.Image.Name" src="~/upload/@item.Image.Url" />
-              </article>
-              <article class="col-md-6 col-sm-6">
-                  <h2 class="">
-                      @item.Title
-                  </h2>
-                  <p>
-                      @item.LongDescription
-                  </p>
-              </article>
-          </div>
-</div>
 

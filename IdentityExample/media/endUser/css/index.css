@@ -14,6 +14,8 @@ body {
 header {
     border-bottom: 1px #f7f7f7 solid;
     box-shadow: 0 0 6px #e6e6e6;
+    border-top: 1px solid #f7882f;
+    background: #fdfdfd;
 }
 
 .color-1 {
@@ -96,6 +98,14 @@ a {
 .container-width {
     width: 100%;
     float: right;
+}
+
+.body-content {
+    min-height: 450px;
+}
+
+.section-lg {
+    padding: 60px 0;
 }
 
 .padding-tb {
@@ -414,7 +424,7 @@ a {
     background: #eee;
     position: relative;
     background: #eee;
-    margin: 30px auto;
+    margin: 30px auto 0;
     height: 279px;
     float: right;
     box-shadow: inset 0 0 14px black;
@@ -515,20 +525,32 @@ a {
 
 
 .news-layout {
-   margin-bottom:15px;
+    margin-bottom: 20px;
 }
 
-    .news-layout j4 {
-
+    .news-layout h4 {
+        min-height: 47px;
+        font-weight: bold;
+        color: #636363;
+        margin-bottom: 5px;
+        margin-top: 30px;
     }
 
     .news-layout p {
+        min-height: 120px;
+        width: 100%;
+        float: right;
     }
 
     .news-layout a {
+        float: left;
+        color: #ff4646;
+        margin-top: 5px;
     }
 
         .news-layout a:hover {
+            color: #ed1616;
+            font-weight: bold;
         }
 /*---------
       footer
@@ -540,7 +562,140 @@ a {
 footer {
     width: 100%;
     float: right;
+    font-size: 0.9em;
     /*height:400px;*/
     background: url('/img/bg-footer.png') no-repeat top center;
     box-shadow: 0px -2px 20px 0px #f1f1f1;
 }
+
+
+/*---------
+      content page
+  ---------
+*/
+
+
+.contact-section h4, .contact-section h2 {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #7d7d7d;
+}
+
+
+.contact-box li {
+    margin-bottom: 10px;
+    position: relative;
+    display: -webkit-box;
+}
+
+
+    .contact-box li .unit-icon {
+        position: absolute;
+        right: 0;
+        top: -3px;
+        padding: 5px;
+        background: #fff;
+        font-size: 1.4em;
+    }
+
+    .contact-box li .unit-body {
+        padding: 5px 31px 0 0;
+        color: #a7a7a7;
+    }
+
+        .contact-box li .unit-body a {
+            float: right;
+            width: 100%;
+            direction: ltr;
+        }
+
+
+.form-wrap {
+    width: 100%;
+    float: right;
+    margin-bottom: 10px;
+}
+
+    .form-wrap input, .form-wrap textarea {
+        display: block;
+        width: 100%;
+        min-height: 48px;
+        padding: 11px 21px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #29293a;
+        background-color: #ffffff;
+        background-image: none;
+        border-radius: 6px;
+        background: #eee;
+        -webkit-appearance: none;
+        transition: .3s ease-in-out;
+        border: 1px solid #ffffff;
+        outline: none;
+        resize: none;
+    }
+
+        .form-wrap input:hover, .form-wrap textarea:hover {
+            background: #f6f6f6;
+            border: 1px solid #f7c331;
+        }
+
+.btn-cantact {
+    padding: 11px 21px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #fff;
+    background-image: none;
+    border-radius: 6px;
+    transition: .3s ease-in-out;
+    border: none;
+    outline: none;
+}
+
+
+/*---------
+      about page
+  ---------
+*/
+
+
+.about-service-layout {
+    margin: 30px auto;
+    background: #ececec;
+    padding: 0 33px;
+    border-radius: 6px;
+}
+
+    .about-service-layout:hover {
+        box-shadow: 0 0 10px 1px rgba(45, 45, 45, 0.23137254901960785);
+    }
+
+    .about-service-layout .about-service-img {
+        width: 150px;
+        height: 150px;
+        position: relative;
+        margin: auto;
+    }
+
+        .about-service-layout .about-service-img img {
+            max-width: 150px;
+            height: 150px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%,-50%);
+            -moz-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+            -o-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+        }
+
+    .about-service-layout h2 {
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.3em;
+        padding-bottom: 25px;
+    }

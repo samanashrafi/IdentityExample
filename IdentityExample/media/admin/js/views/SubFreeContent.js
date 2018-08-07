@@ -322,7 +322,11 @@ require(['JsonAction'], function (JsonAction) {
             if ($('#LongDescription').val() != "") {
                 SubFreeContent.SetDataCreate("#LongDescription", "LongDescription", false);
 
-            }
+            
+                if ($('#ShortDescription').val() != "") {
+                    SubFreeContent.SetDataCreate("#ShortDescription", "ShortDescription", false);
+
+                }
 
             //            if ($('#file').val() != "") {
             //                SubFreeContent.SetDataCreate("#file", "file", false);
@@ -335,7 +339,7 @@ require(['JsonAction'], function (JsonAction) {
             SubFreeContent.SetDataCreate("#FreeContentId", "FreeContentId", false);
             //            SubFreeContent.Create();
 
-            SubFreeContent.CreateMultiImage('file');
+            SubFreeContent.Create('file');
         }
 
     });
