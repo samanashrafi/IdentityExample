@@ -2483,6 +2483,7 @@
     <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
     <Content Include="bin\IdentityExample.dll.config" />
     <Content Include="Areas\Admin\Views\SubFreeContent\Index.cshtml" />
+    <Content Include="favicon.ico" />
     <None Include="media\admin\js\Scripts\jquery.validate-vsdoc.js" />
     <Content Include="media\admin\js\Scripts\jquery.validate.js" />
     <Content Include="media\admin\js\Scripts\jquery.validate.min.js" />
