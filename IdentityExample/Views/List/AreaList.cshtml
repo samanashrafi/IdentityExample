@@ -1,22 +1,24 @@
 ﻿@model List<IdentityExample.DomainClasses.SubFreeContent>
 
 @{
-    ViewBag.Title = "Services";
-    Layout = "";
-
+    ViewBag.Title = "AreaList";
+    Layout = "~/Views/Shared/_EndUserLayOut.cshtml";
 }
+
 
 
 <section id="whe-here" class="container-width  margin-tb">
     <div class="container">
         <div class="row ">
-            <h2 class="color-1 header-h2 text-center">مناطق قابل سرویس</h2>
+            <h2 class="color-1 header-h2 text-center">لیست مناطق قابل سرویس</h2>
             <p class="text-center color-1">ما در مناطق شمال، غرب و شرق تهران بهترین سرویس دهی را به شما ارائه می دهیم .</p>
 
             @foreach (var item in Model)
             {
+@*< a href = "~/Views/List/Details.cshtml" > ~/ Views / List / Details.cshtml </ a >*@
+                //‍‍~/ Views / List / @item.Id
                 <article class="col-md-4 col-sm-4">
-                    <a href="Home/Details/@item.Id" class="street-layout transition">
+                    <a href="~/List/Details/@item.Id" class="street-layout transition">
                         @*~/post/@item.Id*@
                         <div class="comment transition">
                             <i class="fa fa-comment-o"></i>
@@ -33,15 +35,20 @@
                             @item.Title
                         </h3>
 
+                       
                     </a>
                 </article>
             }
-            <div class="col-md-12 col-sm-12">
-                <a href="List/AreaList" class="button">
-                    <span> تمام محله ها</span>
-                </a>
-            </div>
+            @*<div class="col-md-12 col-sm-12">
+                    <a href="" class="button">
+                        <span> تمام محله ها</span>
+                    </a>
+                </div>*@
         </div>
     </div>
-
+    <a href="https://snazzymaps.com/">
+        google
+    </a>
 </section>
+
+
