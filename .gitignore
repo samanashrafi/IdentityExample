@@ -274,3 +274,6 @@ Version.cs
 Version.h
 Version.cpp
 .vs/
+/IdentityExample/upload
+/IdentityExample/Views/AboutMe
+/IdentityExample
