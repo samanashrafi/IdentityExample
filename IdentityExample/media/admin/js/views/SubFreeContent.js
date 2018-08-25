@@ -157,7 +157,7 @@ require(['JsonAction'], function (JsonAction) {
                 $('.Edit-Modal').click();
 
                 parentThis.getID = $(this).attr('data-id');
-               
+
                 //                alert('edit is click.');
                 //$("form[name='edit_SubFreeContent']").ClearForm_input();
                 //if ($('#edit-Condition').is(':checked')) {
@@ -263,10 +263,10 @@ require(['JsonAction'], function (JsonAction) {
 
         SubFreeContent.SetDataUpdate("#edit-Title", "Title", false);
         SubFreeContent.SetDataUpdate("#edit-TitleEn", "TitleEn", false);
-//
-//        if ($('#edit-Priority').val() != "") {
-//            SubFreeContent.SetDataUpdate("#edit-Priority", "Priority", false);
-//        }
+        //
+        //        if ($('#edit-Priority').val() != "") {
+        //            SubFreeContent.SetDataUpdate("#edit-Priority", "Priority", false);
+        //        }
 
         if ($('#edit-MetaKeyword').val() != "") {
             SubFreeContent.SetDataUpdate("#edit-MetaKeyword", "MetaKeyword", false);
@@ -286,11 +286,11 @@ require(['JsonAction'], function (JsonAction) {
 
         SubFreeContent.SetDataUpdate("#edit-Condition", "Condition", false);
         SubFreeContent.SetDataUpdate("#FreeContentId", "FreeContentId", false);
-//        SubFreeContent.SetDataUpdate("#edit-images-update", "", false);
+        //        SubFreeContent.SetDataUpdate("#edit-images-update", "", false);
 
 
         SubFreeContent.PostUpdateMultiImage('edit-Image', 'SubFreeContent-update');
-//        SubFreeContent.PostUpdate();
+        //        SubFreeContent.PostUpdate();
 
         //}
 
@@ -321,12 +321,12 @@ require(['JsonAction'], function (JsonAction) {
 
             if ($('#LongDescription').val() != "") {
                 SubFreeContent.SetDataCreate("#LongDescription", "LongDescription", false);
+            }
 
-            
-                if ($('#ShortDescription').val() != "") {
-                    SubFreeContent.SetDataCreate("#ShortDescription", "ShortDescription", false);
+            if ($('#ShortDescription').val() != "") {
+                SubFreeContent.SetDataCreate("#ShortDescription", "ShortDescription", false);
 
-                }
+            }
 
             //            if ($('#file').val() != "") {
             //                SubFreeContent.SetDataCreate("#file", "file", false);
@@ -340,8 +340,8 @@ require(['JsonAction'], function (JsonAction) {
             //            SubFreeContent.Create();
 
             SubFreeContent.Create('file');
-        }
 
+        }
     });
 
 

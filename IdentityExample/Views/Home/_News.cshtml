@@ -14,17 +14,35 @@
             <p class="text-center color-1">ما در اینجا به آخرین اخبار، رویدادها، نکات مهم در اسباب کشی و مطالب جالب در مورد املاک مستغلات می پردازیم .</p>
             @foreach (var item in Model)
             {
-                <article class="col-md-4 col-sm-4">
+                <article class="col-md-4 col-sm-6">
                     <div class="news-layout transition">
                         @*~/post/@item.Id*@
-                        <h4 >
-                            @item.Title
-                        </h4>
-                        <p>
-                            @item.ShortDescription
-                        </p>
+                        <a href="/List/Details/@item.Id">
+                            <h4>
+                                @item.Title
+                            </h4>
+                        </a>
+                        <div class="container-width">
+                            @if (item.Image.Url != null)
+                            {
+                                <a class="img-box" href="/List/Details/@item.Id" >
+                                    <img src="~/upload/@item.Image.Url" alt="@item.Title" title="@item.Title" />
+                                </a>
+                            }
+                            else
+                            {
+                                <a class="img-box" href="/List/Details/@item.Id" >
+                                    <i class="fa fa-image"></i>
+                                    <div>بدون عکس</div>
+                                </a>
+                            }
+                            <p>
+                                @item.ShortDescription
+                            </p>
+                        </div>
+
                         <a href="/List/Details/@item.Id" class="transition">
-                              ادامه مطلب...
+                            ادامه مطلب...
                         </a>
                     </div>
                 </article>

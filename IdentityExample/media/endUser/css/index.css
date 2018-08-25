@@ -402,7 +402,7 @@ a {
             transform: translate(-50%,-50%);
         }
 
-    .service-layout h2 {
+    .service-layout h3 {
         text-align: center;
         font-weight: 500;
         font-size: 1.3em;
@@ -416,7 +416,7 @@ a {
 
 
 .package-img {
-    width:100%
+    width: 100%;
 }
 
 /*---------
@@ -530,6 +530,9 @@ a {
 
 .news-layout {
     margin-bottom: 20px;
+    display: block;
+    float: right;
+    width: 100%;
 }
 
     .news-layout h4 {
@@ -540,21 +543,61 @@ a {
         margin-top: 30px;
     }
 
+    .news-layout .img-box {
+        background: #eee;
+        position: relative;
+        width: 100%;
+        height: 200px;
+        float: right;
+        margin: 0 0 10px 0;
+        overflow: hidden;
+    }
+
+        .news-layout .img-box a:hover {
+            fon
+        }
+
+        .news-layout .img-box img {
+            width: 100%;
+            height: 200px;
+        }
+
+        .news-layout .img-box div, .news-layout .img-box i {
+            position: absolute;
+            font-size: 30px;
+            color: #555;
+        }
+
+        .news-layout .img-box div {
+            top: 60%;
+            left: 55%;
+            transform: translate(-68%,-60%);
+            font-size: 25px;
+        }
+
+        .news-layout .img-box i {
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%,-40%);
+        }
+
     .news-layout p {
         min-height: 120px;
         width: 100%;
         float: right;
+        text-align: justify;
     }
 
     .news-layout a {
-        float: left;
+        float: right;
+        width:100%;
         color: #ff4646;
         margin-top: 5px;
     }
 
         .news-layout a:hover {
             color: #ed1616;
-            font-weight: bold;
+            /*font-weight: bold;*/
         }
 /*---------
       footer
