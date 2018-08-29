@@ -71,7 +71,10 @@ namespace IdentityExample.Controllers
             ViewBag.Message = "Your contact page.";
             return PartialView("_Contact", model);
         }
-
+        public ActionResult Tariffs()
+        {
+            return View();
+        }
         public ActionResult Details(int id)
         {
             var model = _subFreeContentService.GetSubByFreeContentId(id);

@@ -51,7 +51,17 @@ header {
     background: #dcc7aa;
 }
 
+.display-none {
+    display: none;
+}
 
+h2 {
+    font-size: 1.2em;
+}
+
+.bold {
+    font-weight: bold;
+}
 
 .transition {
     transition: all 0.3s linear;
@@ -554,7 +564,7 @@ a {
     }
 
         .news-layout .img-box a:hover {
-            fon
+            fon;
         }
 
         .news-layout .img-box img {
@@ -590,7 +600,7 @@ a {
 
     .news-layout a {
         float: right;
-        width:100%;
+        width: 100%;
         color: #ff4646;
         margin-top: 5px;
     }
@@ -745,4 +755,76 @@ footer {
         font-weight: 500;
         font-size: 1.3em;
         padding-bottom: 25px;
+    }
+
+
+
+
+.tariffs-layout {
+    display: block;
+    background-color: #eee;
+    background: url(../img/bg-trauk.png) no-repeat center center rgba(215, 215, 236, 0.1411764705882353);
+    margin-top: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 8px #bbbbbb;
+}
+
+    .tariffs-layout .title {
+        padding: 10px;
+        background: #6b7a8f;
+        text-align: center;
+        border-bottom: 1px #ddd solid;
+        color: #ffffff;
+        box-shadow: 0px 3px 7px #eae3e3;
+        display:none;
+    }
+
+    .tariffs-layout .area {
+        padding: 20px;
+        float: right;
+        width: 100%;
+        min-height: 130px;
+    }
+
+        .tariffs-layout .area span {
+            padding: 7px;
+            border: #ccc;
+            background: #929292;
+            color: #eee;
+            margin-left: 5px;
+            margin-bottom: 5px;
+            float: right;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+        }
+
+
+
+    .tariffs-layout .price {
+        padding: 10px;
+        border-top: 1px dashed rgba(107, 122, 143, 0.43);
+        width: 100%;
+        float: right;
+        font-weight: 600;
+    }
+
+        .tariffs-layout .price span:nth-child(1) {
+        }
+
+        .tariffs-layout .price span:nth-child(2) {
+            float: left;
+            color: #f52828;
+        }
+
+.tariffs-note {
+    margin-top: 20px;
+}
+
+    .tariffs-note strong {
+        color: #f52828;
+        font-weight: 600;
     }

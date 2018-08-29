@@ -2495,12 +2495,16 @@
     <Content Include="media\admin\js\Scripts\validate-app.js" />
     <Content Include="media\endUser\css\animate.min.css" />
     <Content Include="media\endUser\css\baseStyle.css" />
+    <Content Include="media\endUser\css\bootstrap-rtl.min.css" />
     <Content Include="media\endUser\css\bootstrap-rtl.css" />
     <Content Include="media\endUser\css\bootstrap-theme.css" />
     <Content Include="media\endUser\css\bootstrap-theme.min.css" />
     <Content Include="media\endUser\css\bootstrap.css" />
     <Content Include="media\endUser\css\bootstrap.min.css" />
+    <Content Include="media\endUser\css\index.min.css" />
     <Content Include="media\endUser\css\index.css" />
+    <Content Include="media\endUser\css\main.css" />
+    <Content Include="media\endUser\css\mediaScreen.min.css" />
     <Content Include="media\endUser\css\mediaScreen.css" />
     <Content Include="media\endUser\css\style.css" />
     <Content Include="media\endUser\font-awesome\css\font-awesome.css" />
@@ -2515,6 +2519,7 @@
     <Content Include="media\endUser\img\355.jpg" />
     <Content Include="media\endUser\img\b-package.png" />
     <Content Include="media\endUser\img\bg-footer.png" />
+    <Content Include="media\endUser\img\bg-trauk.png" />
     <Content Include="media\endUser\img\logo.png" />
     <Content Include="media\endUser\img\mt-0995-home-slider-01.jpg" />
     <Content Include="media\endUser\img\package.png" />
@@ -2708,6 +2713,7 @@
     <Content Include="Views\AboutMe\Index.cshtml" />
     <Content Include="Views\AboutMe\Services.cshtml" />
     <Content Include="Views\List\NewsList.cshtml" />
+    <Content Include="Views\Home\Tariffs.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
