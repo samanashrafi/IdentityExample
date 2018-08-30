@@ -564,7 +564,6 @@ a {
     }
 
         .news-layout .img-box a:hover {
-            fon;
         }
 
         .news-layout .img-box img {
@@ -619,12 +618,95 @@ a {
 footer {
     width: 100%;
     float: right;
+    padding: 20px 0 0 0;
     font-size: 0.9em;
     /*height:400px;*/
-    /*background: url('/img/bg-footer.png') no-repeat top center;*/
-    box-shadow: 0px -2px 20px 0px #f1f1f1;
+    background: rgba(215, 215, 236, 0.32);
+    background-image: url('../img/bg-footer.png');
+    box-shadow: 0px -2px 20px 0px rgba(241, 241, 241, 0.39);
 }
 
+    footer .layout {
+        margin: 0 0 20px 0;
+    }
+
+    footer .title {
+        font-size: 1.35em;
+        margin-bottom: 15px;
+        color: #f7882f;
+        font-weight: 600;
+    }
+
+    footer .logo {
+        display: table;
+        margin: auto;
+    }
+
+
+        footer .logo img {
+            width: 130px;
+        }
+
+    footer .copy-right {
+        border-top: #c3c3c3 dashed 1px;
+        color: #636363;
+        padding: 5px 0;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    footer .link li {
+        width: 50%;
+        float: right;
+        padding-left: 10px;
+        margin: 0 0 10px 0;
+        font-size: 1.1em;
+    }
+
+        footer .link li a {
+            color: #7e7e7e;
+               font-weight: 600;
+        }
+
+            footer .link li a:hover {
+                color: #f7882f;
+             
+            }
+
+
+    footer .social {
+        position: relative;
+        width: 159px;
+        height: 45px;
+        text-align: center;
+        border-radius: 9px;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.11);
+        color: #fff;
+        margin-bottom: 10px;
+        display: inline-block;
+        font-size: 14px;
+        line-height: 45px;
+    }
+
+        footer .social a {
+            color: #fff;
+        }
+
+        footer .social i {
+            float: right;
+            font-size: 1.5em;
+            position: absolute;
+            right: 12px;
+            top: 12px;
+        }
+
+    footer .instagram {
+        background: linear-gradient(266deg,#4e60d3,#913baf 35%,#d52d88 68%,#f26d4f);
+    }
+
+    footer .telegram {
+        background: #0088cc;
+    }
 
 /*---------
       content page
@@ -779,7 +861,7 @@ footer {
         border-bottom: 1px #ddd solid;
         color: #ffffff;
         box-shadow: 0px 3px 7px #eae3e3;
-        display:none;
+        display: none;
     }
 
     .tariffs-layout .area {

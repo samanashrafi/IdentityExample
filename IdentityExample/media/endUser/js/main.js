@@ -5,7 +5,10 @@
    */
 
     $('*').persiaNumber();
-    $('.body-content').css('min-height', $(window).height() - ($('.navbar-wrapper').height() - $('footer').height()) - 15 + 'px');
+    console.log('$(window).height()', $(window).height(), '$(.navbar-wrapper).height()', $('.navbar-wrapper').height(), $('footer').height());
+    console.log($(window).height() - $('.navbar-wrapper').height());
+
+    $('.body-content').css('min-height', $(window).height() - ($('.navbar-wrapper').height() + $('footer').height()) - 15 + 'px');
 
 
     /*
