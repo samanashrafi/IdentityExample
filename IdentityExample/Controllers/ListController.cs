@@ -34,6 +34,11 @@ namespace IdentityExample.Controllers
             var model = _subFreeContentService.GetSubByFreeContentId(id);
             return View(model);
         }
+        public ActionResult OtherList(int id)
+        {
+            var model = _subFreeContentService.GetSubFreeContentByType("News");
+            return View(model);
+        }
 
     }
 }

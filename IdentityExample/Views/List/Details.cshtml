@@ -9,20 +9,51 @@
 <section class="section-lg">
     <div class="container">
         <div class="row">
-            <article class="col-md-6 col-sm-6">
-                <img class="img-responsive transition" alt="@item.Image.Name" title="@item.Image.Name" src="~/upload/@item.Image.Url" />
-            </article>
-            <article class="col-md-6 col-sm-6">
-                <h2 class="">
+            <article class="col-md-8 col-sm-12 details">
+                <h2 class="title">
                     @item.Title
                 </h2>
-                <p>
+                <div class="container-width ">
+                    <div class="post-author">
+                        <div class="img"></div>
+                        <h5 class="name">مدیر سایت</h5>
+                    </div>
+                    <div class="date">
+                        <i class="far fa-clock"></i>
+                        <span>8 شهریور 1397 - 12:30</span>
+                    </div>
+                </div>
+                @if (item.Image.Url != null)
+                {
+                    <div class="img-cover">
+                        <img class="img-responsive transition" alt="@item.Image.Name" title="@item.Image.Name" src="~/upload/@item.Image.Url" />
+                    </div>
+                }
+
+                <div class="short-des">
+                    @item.ShortDescription
+                </div>
+                <div class="long-des">
                     @item.LongDescription
-                </p>
+                </div>
+                <div class="container-width post-social">
+                    <div class="container-width share">
+                        اشتراک گذاری در شبکه های اجتماعی
+                    </div>
+                    <a href="/" class="comment"><i class="far fa-comment-dots"></i><span>0</span></a>
+                    <a href="/" class="like"><i class="far fa-thumbs-up"><span>0</span></i></a>
+
+                    <ul>
+                        <li><a id="telegram" href="https://telegram.me/share/url?url=http://amanatbartehran.ir/List/Details/@item.Id"><i class="fab fa-telegram-plane"></i></a></li>
+                        <li><a id="twitter" href="http://twitter.com/intent/tweet/?url=http://amanatbartehran.ir/List/Details/@item.Id"><i class="fab fa-twitter"></i></a></li>
+                        <li><a id="google-plus" href="https://plus.google.com/share?url=http://amanatbartehran.ir/List/Details/@item.Id" ><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a id="facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://amanatbartehran.ir/List/Details/@item.Id"><i class="fab fa-facebook"></i></a></li>
+                    </ul>
+                   
+                </div>
+
             </article>
+            @Html.Action("OtherList", "List")
         </div>
     </div>
 </section>
-
-
-

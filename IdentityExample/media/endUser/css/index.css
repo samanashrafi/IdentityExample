@@ -260,14 +260,14 @@ a {
 .header-phone {
     float: left;
     padding: 15px 15px;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 17px;
 }
 
     .header-phone i {
         float: left;
         margin: 0 13px;
-        font-size: 1.4em;
+        font-size: 1em;
         position: relative;
         top: 3px;
     }
@@ -635,6 +635,8 @@ footer {
         margin-bottom: 15px;
         color: #f7882f;
         font-weight: 600;
+        float: right;
+        width: 100%;
     }
 
     footer .logo {
@@ -665,12 +667,11 @@ footer {
 
         footer .link li a {
             color: #7e7e7e;
-               font-weight: 600;
+            font-weight: 600;
         }
 
             footer .link li a:hover {
                 color: #f7882f;
-             
             }
 
 
@@ -839,7 +840,10 @@ footer {
         padding-bottom: 25px;
     }
 
-
+/*---------
+      tariffs page
+  ---------
+*/
 
 
 .tariffs-layout {
@@ -910,3 +914,180 @@ footer {
         color: #f52828;
         font-weight: 600;
     }
+
+
+
+/*---------
+      details page
+  ---------
+*/
+
+.details {
+}
+
+    .details .title {
+        color: #888;
+        font-weight: 600;
+        display: block;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        border-bottom: 1px dashed #ddd;
+    }
+
+    .details .post-author {
+        float: right;
+    }
+
+        .details .post-author .img {
+            width: 60px;
+            height: 60px;
+            background: url('../img/avatar.png') no-repeat center center;
+            float: right;
+            margin-bottom: 15px;
+            border-radius: 100px;
+        }
+
+        .details .post-author .name {
+            float: right;
+            padding: 20px;
+            color: #999;
+        }
+
+    .details .date {
+        float: left;
+        padding: 20px 0 0 0;
+        color: #999;
+    }
+
+        .details .date i {
+            position: relative;
+            top: 2px;
+        }
+
+        .details .date span {
+        }
+
+    .details .img-cover {
+    }
+
+    .details .short-des p, .details .long-des p {
+        width: 100%;
+        float: right;
+        text-align: justify;
+        margin: 0 0 15px 0;
+    }
+
+    .details .post-social {
+        padding: 10px 0;
+        border-bottom: 1px dashed #ddd;
+        border-top: 1px dashed #ddd;
+        margin: 15px 0;
+    }
+
+        .details .post-social .share {
+            color: #999;
+            margin-bottom: 5px;
+            font-size: 0.9em;
+            font-weight: 600;
+        }
+
+        .details .post-social .like, .details .post-social .comment {
+            float: left;
+            color: #999;
+            padding: 5px;
+            width: 30px;
+            height: 30px;
+            margin-right: 15px;
+            position: relative;
+        }
+
+            .details .post-social .like span, .details .post-social .comment span {
+                position: absolute;
+                top: 5px;
+                right: -11px;
+                color: #888;
+            }
+
+        .details .post-social ul li a {
+            float: right;
+            background: #ddd;
+            padding: 5px;
+            margin-left: 10px;
+            width: 30px;
+            color: #fff;
+            height: 30px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+#facebook {
+    background: #3b5998;
+}
+
+#twitter {
+    background: #2caae1;
+}
+
+#google-plus {
+    background: #d44439;
+}
+
+#instagram {
+    background: linear-gradient(266deg,#4e60d3,#913baf 35%,#d52d88 68%,#f26d4f);
+}
+
+#telegram {
+    background: #0088cc;
+}
+
+
+
+.other-list {
+    background: #fdfdfd;
+    box-shadow: 0 0 7px 3px #f7f3f3;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    float: right;
+    width: 100%;
+}
+
+    .other-list .title {
+        padding: 5px 20px;
+        margin-bottom: 10px;
+        background: #f5f9fd;
+        text-align: center;
+        color: #ff1200;
+        font-weight: 600;
+        border-bottom: 1px solid #eee;
+    }
+
+    .other-list .other-item {
+        float: right;
+        width: 100%;
+        padding: 10px;
+        border-bottom: 1px dashed #ddd;
+        margin-bottom: 10px;
+    }
+
+        .other-list .other-item:last-child {
+            border-bottom: none;
+            margin-bottom: 20px;
+        }
+
+        .other-list .other-item .img {
+        }
+
+            .other-list .other-item .img img {
+            }
+
+        .other-list .other-item .title-item {
+            font-size: 0.8em;
+            font-weight: 600;
+            color: #999;
+        }
+
+        .other-list .other-item .date {
+            font-size: 0.7em;
+            float: left;
+            color: #ccc;
+        }
