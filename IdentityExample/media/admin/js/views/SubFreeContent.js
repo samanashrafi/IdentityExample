@@ -72,6 +72,9 @@ $(document).ready(function () {
         $('.close').click();
     });
 
+
+
+
 });
 
 
@@ -247,6 +250,18 @@ require(['JsonAction'], function (JsonAction) {
     };
 
     SubFreeContent.TableConfig();
+    var dataEditor = "";
+
+    ClassicEditor.create(document.querySelector('#SubFC-E-Create'), {
+      language: 'fa'
+    }).then(editor => {
+        dataEditor = editor;
+        console.log(dataEditor)
+      
+    }).catch(err => {
+      debugger;
+      console.error(err.stack);
+    });
 
 
     $('#edit-Image').change(function (event) {
@@ -320,9 +335,10 @@ require(['JsonAction'], function (JsonAction) {
             }
 
             if ($('#LongDescription').val() != "") {
-                SubFreeContent.SetDataCreate("#LongDescription", "LongDescription", false);
+                SubFreeContent.SetDataCreate("LongDescription", dataEditor.getData(), true);
             }
 
+            console.log(dataEditor.getData())
             if ($('#ShortDescription').val() != "") {
                 SubFreeContent.SetDataCreate("#ShortDescription", "ShortDescription", false);
 

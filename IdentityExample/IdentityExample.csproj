@@ -2099,6 +2099,8 @@
     <Content Include="media\admin\js\demo\peity-demo.js" />
     <Content Include="media\admin\js\demo\rickshaw-demo.js" />
     <Content Include="media\admin\js\demo\sparkline-demo.js" />
+    <Content Include="media\admin\js\plugins\ckeditor\ckeditor.js" />
+    <Content Include="media\admin\js\plugins\ckeditor\fa.js" />
     <Content Include="media\admin\js\Scripts\inspinia.js" />
     <Content Include="media\admin\js\Scripts\jquery-2.1.1.js" />
     <Content Include="media\admin\js\Scripts\jquery-3.1.1.min.js" />

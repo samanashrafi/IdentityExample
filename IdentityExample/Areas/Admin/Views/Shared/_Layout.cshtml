@@ -5,11 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - .NET Core 1.0</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <!-- Add local styles, mostly for plugins css file -->
-
     <title>INSPINIA | Dashboard</title>
-
     <link href="~/media/admin/css/bootstrap.css" rel="stylesheet" />
     <link href="~/media/admin/css/jquery.bootgrid.css" rel="stylesheet" />
     <link href="~/media/admin/css/font-awesome.css" rel="stylesheet" />
@@ -17,7 +14,6 @@
     <link href="~/media/admin/css/plugins/toastr/toastr.min.css" rel="stylesheet" />
     <!-- Gritter -->
     <link href="~/media/admin/js/plugins/gritter/jquery.gritter.css" rel="stylesheet" />
-
     <link href="~/media/admin/css/animate.css" rel="stylesheet" />
     <link href="~/media/admin/css/plugins/sweetalert/sweetalert.css" rel="stylesheet" />
     <link href="~/media/admin/css/plugins/iCheck/custom.css" rel="stylesheet" />
@@ -27,14 +23,11 @@
     <link href="~/media/admin/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet" />
 </head>
 <body>
-
     <div id="wrapper">
-
         <nav class="navbar-default navbar-static-side" role="navigation">
             <div class="sidebar-collapse">
                 <ul class="nav metismenu" id="side-menu">
                     <li class="nav-header">
-
                         <div class="dropdown profile-element">
                             <span>
                                 <img alt="image" class="img-circle" src="~/img/profile_small.jpg" />
@@ -50,9 +43,8 @@
                                 <li><a href="profile.html">پروفایل</a></li>
                                 <li><a href="contacts.html">تماس ها</a></li>
                                 <li><a href="mailbox.html">ایمیل</a></li>
-                               
-                                @*<li><a href="login.html">خروج</a></li>*@
 
+                                @*<li><a href="login.html">خروج</a></li>*@
                             </ul>
                         </div>
                         <div class="logo-element">
@@ -75,30 +67,26 @@
                     <li>
                         <a href="#"><i class="fa fa-pencil"></i> <span class="nav-label">محتوای آزاد</span> <span class="fa arrow"></span></a>
                         @*<ul class="nav nav-second-level">
-                            <li class="active"><a href="index.html">مقاله</a></li>
-                            <li><a href="dashboard_2.html">ترجمه</a></li>
-                            <li><a href="dashboard_3.html">برندینگ</a></li>
-                            <li><a href="dashboard_4_1.html">بیلبرد</a></li>
-                            <li><a href="dashboard_5.html">کمپین تبلیغاتی </a></li>
-                            <li><a href="dashboard_5.html">منوها </a></li>
-                        </ul>*@
-                       @Html.Action("DashboardItems", "FreeContent")
+                                <li class="active"><a href="index.html">مقاله</a></li>
+                                <li><a href="dashboard_2.html">ترجمه</a></li>
+                                <li><a href="dashboard_3.html">برندینگ</a></li>
+                                <li><a href="dashboard_4_1.html">بیلبرد</a></li>
+                                <li><a href="dashboard_5.html">کمپین تبلیغاتی </a></li>
+                                <li><a href="dashboard_5.html">منوها </a></li>
+                            </ul>*@
+                        @Html.Action("DashboardItems", "FreeContent")
                     </li>
                     <li>
                         @*<a href="" class="LogOut-User"><i class="fa fa-sign-out"></i> <span class="nav-label">خروچ</span></a>*@
-
                         @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "" }))
                         {
-                             @Html.AntiForgeryToken()
-                            <a  href="javascript:document.getElementById('logoutForm').submit()"><i class="fa fa-sign-out"></i> <span class="nav-label">خروچ</span></a>
+                        @Html.AntiForgeryToken()
+                        <a href="javascript:document.getElementById('logoutForm').submit()"><i class="fa fa-sign-out"></i> <span class="nav-label">خروچ</span></a>
                         }
                     </li>
-
                 </ul>
-
             </div>
         </nav>
-
         <div id="page-wrapper" class="gray-bg dashbard-1">
             <div class="row border-bottom">
                 <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
@@ -210,24 +198,20 @@
                             </ul>
                         </li>
 
-
                         @*<li>
-                            <a href="login.html">
-                                <i class="fa fa-sign-out"></i><span class="class="LogOut-User"">خروج</span> 
-                            </a>
-                        </li>*@
+                                <a href="login.html">
+                                    <i class="fa fa-sign-out"></i><span class="class="LogOut-User"">خروج</span>
+                                </a>
+                            </li>*@
                         <li class="display-none-important">
                             <a class="right-sidebar-toggle">
                                 <i class="fa fa-tasks"></i>
                             </a>
                         </li>
                     </ul>
-
                 </nav>
             </div>
             <div class="row wrapper border-bottom white-bg page-heading">
-
-
 
                 <div class="col-lg-10">
                     <h2>
@@ -237,13 +221,10 @@
                         <li>
                             <a href="#">داشبورد</a>
                         </li>
-
                         @RenderSection("breadcrumb", false)
-
                     </ol>
                 </div>
                 <div class="col-lg-2">
-
                 </div>
             </div>
             <div class="row">
@@ -253,25 +234,20 @@
                     </div>
                     @RenderSection("Scripts", false)
 
-
                 </div>
             </div>
             <div class="footer">
-
                 <strong>Copyright</strong> Negah Studio &copy; 2014-2017
             </div>
         </div>
         <div class="small-chat-box fadeInRight animated">
-
             <div class="heading" draggable="true">
                 <small class="chat-date pull-right">
                     02.19.2015
                 </small>
                 Small chat
             </div>
-
             <div class="content">
-
                 <div class="left">
                     <div class="author-name">
                         Monica Jackson <small class="chat-date">
@@ -281,7 +257,6 @@
                     <div class="chat-message active">
                         Lorem Ipsum is simply dummy text input.
                     </div>
-
                 </div>
                 <div class="right">
                     <div class="author-name">
@@ -328,7 +303,6 @@
                     </div>
                 </div>
 
-
             </div>
             <div class="form-chat">
                 <div class="input-group input-group-sm">
@@ -340,21 +314,16 @@
                     </span>
                 </div>
             </div>
-
         </div>
         <div id="small-chat " class="display-none-important">
-
             <span class="badge badge-warning pull-right">5</span>
             <a class="open-small-chat">
                 <i class="fa fa-comments"></i>
-
             </a>
         </div>
         <div id="right-sidebar" class="animated">
             <div class="sidebar-container">
-
                 <ul class="nav nav-tabs navs-3">
-
                     <li class="active">
                         <a data-toggle="tab" href="#tab-1">
                             Notes
@@ -371,31 +340,24 @@
                         </a>
                     </li>
                 </ul>
-
                 <div class="tab-content">
 
-
                     <div id="tab-1" class="tab-pane active">
-
                         <div class="sidebar-title">
                             <h3> <i class="fa fa-comments-o"></i> Latest Notes</h3>
                             <small><i class="fa fa-tim"></i> You have 10 new message.</small>
                         </div>
-
                         <div>
-
                             <div class="sidebar-message">
                                 <a href="#">
                                     <div class="pull-left text-center">
                                         <img alt="image" class="img-circle message-avatar" src="~/img/a1.jpg">
-
                                         <div class="m-t-xs">
                                             <i class="fa fa-star text-warning"></i>
                                             <i class="fa fa-star text-warning"></i>
                                         </div>
                                     </div>
                                     <div class="media-body">
-
                                         There are many variations of passages of Lorem Ipsum available.
                                         <br>
                                         <small class="text-muted">Today 4:21 pm</small>
@@ -418,7 +380,6 @@
                                 <a href="#">
                                     <div class="pull-left text-center">
                                         <img alt="image" class="img-circle message-avatar" src="~/img/a3.jpg">
-
                                         <div class="m-t-xs">
                                             <i class="fa fa-star text-warning"></i>
                                             <i class="fa fa-star text-warning"></i>
@@ -437,7 +398,6 @@
                                     <div class="pull-left text-center">
                                         <img alt="image" class="img-circle message-avatar" src="~/img/a4.jpg">
                                     </div>
-
                                     <div class="media-body">
                                         Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the
                                         <br>
@@ -451,7 +411,6 @@
                                         <img alt="image" class="img-circle message-avatar" src="~/img/a8.jpg">
                                     </div>
                                     <div class="media-body">
-
                                         All the Lorem Ipsum generators on the Internet tend to repeat.
                                         <br>
                                         <small class="text-muted">Today 4:21 pm</small>
@@ -474,7 +433,6 @@
                                 <a href="#">
                                     <div class="pull-left text-center">
                                         <img alt="image" class="img-circle message-avatar" src="~/img/a3.jpg">
-
                                         <div class="m-t-xs">
                                             <i class="fa fa-star text-warning"></i>
                                             <i class="fa fa-star text-warning"></i>
@@ -501,16 +459,12 @@
                                 </a>
                             </div>
                         </div>
-
                     </div>
-
                     <div id="tab-2" class="tab-pane">
-
                         <div class="sidebar-title">
                             <h3> <i class="fa fa-cube"></i> Latest projects</h3>
                             <small><i class="fa fa-tim"></i> You have 14 projects. 10 not completed.</small>
                         </div>
-
                         <ul class="sidebar-list">
                             <li>
                                 <a href="#">
@@ -605,18 +559,13 @@
                                     <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
                                 </a>
                             </li>
-
                         </ul>
-
                     </div>
-
                     <div id="tab-3" class="tab-pane">
-
                         <div class="sidebar-title">
                             <h3><i class="fa fa-gears"></i> Settings</h3>
                             <small><i class="fa fa-tim"></i> You have 14 projects. 10 not completed.</small>
                         </div>
-
                         <div class="setings-item">
                             <span>
                                 Show notifications
@@ -715,7 +664,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="sidebar-content">
                             <h4>Settings</h4>
                             <div class="small">
@@ -724,39 +672,28 @@
                                 Over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
                             </div>
                         </div>
-
                     </div>
                 </div>
-
             </div>
-
-
 
         </div>
     </div>
-
-
 
     <!-- Mainly scripts -->
     @*<script src="~/media/admin/js/Scripts/jquery-3.1.1.min.js"></script>*@
     <script src="~/media/admin/js/Scripts/jquery-2.1.1.js"></script>
     @*<script src="~/Scripts/jquery-1.10.2.js"></script>*@
-
     <script src="~/media/admin/js/Scripts/jquery.unobtrusive-ajax.min.js"></script>
     <script src="~/media/admin/js/Scripts/jquery.validate.js"></script>
     @*<script src="~/media/admin/js/plugins/validate/jquery.validate.min.js"></script>*@
-
 
     <script src="~/media/admin/js/Scripts/bootstrap.min.js"></script>
     <script src="~/media/admin/js/plugins/metisMenu/jquery.metisMenu.js"></script>
     <script src="~/media/admin/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 
-
-
     <!-- Custom and plugin javascript -->
-
     <script src="~/media/admin/js/Scripts/persianumber.js"></script>
-  
+
     <!-- jQuery UI -->
     <script src="~/media/admin/js/plugins/jquery-ui/jquery-ui.min.js"></script>
     <script src="~/media/admin/js/Scripts/jquery.bootgrid.js"></script>
@@ -765,20 +702,17 @@
     <script src="~/media/admin/js/Scripts/inspinia.js"></script>
     <script src="~/media/admin/js/plugins/pace/pace.min.js"></script>
     <script src="~/media/admin/js/plugins/iCheck/icheck.min.js"></script>
-
+    <script src="~/media/admin/js/plugins/ckeditor/ckeditor.js"></script>
+    <script src="~/media/admin/js/plugins/ckeditor/fa.js"></script>
     <script src="~/media/admin/js/model/PublicFuntions.js"></script>
-
     <script data-main="/media/admin/js/model/main" src="~/media/admin/js/model/require.js"></script>
-
     @RenderSection("scriptfooter", false)
-    
+
     <script>
+       
         $('html,body,table').persiaNumber();
     </script>
 
 
-
-
 </body>
 </html>
-

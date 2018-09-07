@@ -257,6 +257,7 @@ define(function () {
 
     JsonAction.prototype.Create = function () {
         var parentThis = this;
+
         for (var i = 0; i < parentThis.GetRowCreate.length; ++i) {
             // this.dataCreate[parentThis.GetRowCreate[i][1]] = $(parentThis.GetRowCreate[i][0]).val();
             if (parentThis.GetRowCreate[i][2] == true) {
