@@ -13,7 +13,7 @@
             <h2 class="color-1 header-h2 text-center">مناطق قابل سرویس</h2>
             <p class="text-center color-1">ما در مناطق شمال، غرب و شرق تهران بهترین سرویس دهی را به شما ارائه می دهیم .</p>
 
-            @foreach (var item in Model)
+            @foreach (var item in Model.Take(3))
             {
                 <article class="col-md-4 col-sm-4">
                     <a href="Home/Details/@item.Id" class="street-layout transition">

@@ -12,7 +12,7 @@
         <div class="row ">
             <h2 class="color-1 header-h2 text-center">وبلاگ</h2>
             <p class="text-center color-1">ما در اینجا به آخرین اخبار، رویدادها، نکات مهم در اسباب کشی و مطالب جالب در مورد املاک مستغلات می پردازیم .</p>
-            @foreach (var item in Model)
+            @foreach (var item in Model.Take(3))
             {
                 <article class="col-md-4 col-sm-6">
                     <div class="news-layout transition">

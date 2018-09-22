@@ -70,7 +70,7 @@ namespace IdentityExample.Areas.Admin.Controllers
         }
         //[ValidateAjax]
         [HttpPost]
-
+        [ValidateInput(false)]
         public JsonResult Create(SubFreeContent subFreeContent, HttpPostedFileBase file)
         {
 

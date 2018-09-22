@@ -12,25 +12,46 @@
             <h2 class="color-1 header-h2 text-center">خدمات امانت بار تهران</h2>
             <p class="text-center">ما در امانت بار تهران انواع ماشین های حمل و نقل، کارگران و به خصوص بسته بندی وسایل منزل می پردازیم.</p>
 
-            @foreach (var item in Model)
+            @foreach (var item in Model.Take(3))
             {
                 <article class="col-md-4 col-sm-4">
                     <div class="service-layout">
                         <div class="service-img">
-                            <img  alt="@item.Title" title="@item.Title" src="~/upload/@item.Image.Url" />
+                            <img alt="@item.Title" title="@item.Title" src="~/upload/@item.Image.Url" />
 
                         </div>
                         <h3 class="color-2">@item.Title</h3>
-                        <p>@item.LongDescription </p>
+                        @*<textarea id="editor2" name="editor2" rows="3">@item.LongDescription</textarea>*@
+                        @{
+                            if (item.ShortDescription != null)
+                            {
+                                <p>  @item.ShortDescription </p>
+
+                            }
+
+
+                        }
                         @*<a href="" class="button">
-                            <span>بشتر بدانید</span>
-                        </a>*@
+                                <span>بشتر بدانید</span>
+                            </a>*@
                     </div>
                 </article>
-            }
+                            }
 
-            
+
         </div>
     </div>
 
 </section>
+
+
+@section scriptfooter{
+    @*<script src="~/media/admin/js/AjaxForm/jquery.form.min.js"></script>*@
+    <script type="text/javascript">
+
+        ClassicEditor.replace('editor2', {
+            enterMode: CKEDITOR.ENTER_BR,
+            on: { 'instanceReady': function (evt) { evt.editor.execCommand('maximize'); } },
+        });
+    </script>
+}
