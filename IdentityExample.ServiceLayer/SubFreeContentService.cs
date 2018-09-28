@@ -52,7 +52,7 @@ namespace IdentityExample.ServiceLayer
         public SubFreeContent GetSubByFreeContentId(int id)
         {
             var model = _subFreeContents
-                .FirstOrDefault(p => p.Id == id);
+                .FirstOrDefault(p => p.FreeContentId == id);
             return model;
         }
 
