@@ -190,7 +190,12 @@ require(['JsonAction'], function (JsonAction) {
                         $("#edit-PageTitle").val(PageTitle);
                         $("#edit-MetaKeyword").val(MetaKeyword);
                         $("#edit-MetaDescription").val(MetaDescription);
-                        $("#edit-LongDescription").val(LongDescription);
+                        //$("#edit-LongDescription").val(LongDescription);
+                     
+                      
+                        dataEditorUpdate.setData(LongDescription);;
+
+                       
                         //console.log('Image_Url', Image_Url);
 
                         //var indexOf = Image_Url.lastIndexOf('upload')
@@ -250,17 +255,24 @@ require(['JsonAction'], function (JsonAction) {
     };
 
     SubFreeContent.TableConfig();
-    var dataEditor = "";
+    var dataEditor = "", dataEditorUpdate = "";
 
     ClassicEditor.create(document.querySelector('#SubFC-E-Create'), {
       language: 'fa'
     }).then(editor => {
         dataEditor = editor;
-        console.log(dataEditor)
       
     }).catch(err => {
-      debugger;
       console.error(err.stack);
+    });
+
+    ClassicEditor.create(document.querySelector('#SubFC'), {
+        language: 'fa'
+    }).then(editor => {
+        dataEditorUpdate = editor;
+
+    }).catch(err => {
+        console.error(err.stack);
     });
 
 
@@ -296,7 +308,8 @@ require(['JsonAction'], function (JsonAction) {
         }
 
         if ($('#edit-LongDescription').val() != "") {
-            SubFreeContent.SetDataUpdate("#edit-LongDescription", "LongDescription", false);
+            SubFreeContent.SetDataUpdate("LongDescription", dataEditorUpdate.getData(), true);
+
         }
 
         SubFreeContent.SetDataUpdate("#edit-Condition", "Condition", false);
@@ -304,8 +317,8 @@ require(['JsonAction'], function (JsonAction) {
         //        SubFreeContent.SetDataUpdate("#edit-images-update", "", false);
 
 
-        SubFreeContent.PostUpdateMultiImage('edit-Image', 'SubFreeContent-update');
-        //        SubFreeContent.PostUpdate();
+        //SubFreeContent.PostUpdateMultiImage('edit-Image', 'SubFreeContent-update');
+                SubFreeContent.PostUpdate();
 
         //}
 

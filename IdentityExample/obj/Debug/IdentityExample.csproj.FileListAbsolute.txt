@@ -358,3 +358,4 @@ E:\Projects\IdentityExample\IdentityExample\IdentityExample\bin\System.Net.Http.
 E:\Projects\IdentityExample\IdentityExample\IdentityExample\obj\Debug\IdentityExample.csprojResolveAssemblyReference.cache
 E:\Projects\IdentityExample\IdentityExample\IdentityExample\obj\Debug\IdentityExample.dll
 E:\Projects\IdentityExample\IdentityExample\IdentityExample\obj\Debug\IdentityExample.pdb
+C:\Users\sami\Source\Repos\IdentityExample\IdentityExample\bin\Newtonsoft.Json.xml

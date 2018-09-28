@@ -2687,7 +2687,6 @@
     <Content Include="Views\Home\Services.cshtml" />
     <Content Include="Views\Home\Ads.cshtml" />
     <Content Include="Views\Home\Area.cshtml" />
-    <Content Include="Views\ContactUs\Index.cshtml" />
     <Content Include="Views\Home\_Silder.cshtml" />
     <Content Include="Views\Home\_Services.cshtml" />
     <Content Include="Views\Home\_Ads.cshtml" />
@@ -2776,13 +2775,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\AccountController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ContactController.cs" />
     <Compile Include="Areas\Admin\Controllers\SubFreeContentControlle.cs" />
     <Compile Include="Areas\Admin\Controllers\FreeContentController.cs" />
     <Compile Include="Areas\Admin\Controllers\SubItemController.cs" />
     <Compile Include="Areas\Admin\Controllers\TestController.cs" />
     <Compile Include="Controllers\AboutMeController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\ContactUsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ListController.cs" />
@@ -2830,7 +2829,6 @@
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Admin\SubFreeContentImage\" />
     <Folder Include="Areas\Admin\Views\FreeContent\Test\" />
-    <Folder Include="Views\Contact\" />
     <Folder Include="Views\MyHeader\" />
   </ItemGroup>
   <PropertyGroup>

@@ -57,10 +57,10 @@ define(function () {
     }
 
 
-    JsonAction.prototype.SetDataUpdate = function (name, value) {
+    JsonAction.prototype.SetDataUpdate = function (name, value, flag) {
         var parentThis = this;
         if (parentThis.GetRowUpdate.indexOf(value) == -1) {
-            parentThis.GetRowUpdate.push([name, value]);
+            parentThis.GetRowUpdate.push([name, value, flag]);
         }
     };
 
@@ -94,9 +94,16 @@ define(function () {
     JsonAction.prototype.PostUpdate = function () {
         //
         var parentThis = this;
-
+      debugger
         for (var i = 0; i < parentThis.GetRowUpdate.length; ++i) {
-            parentThis.dataUpdate[parentThis.GetRowUpdate[i][1]] = $(parentThis.GetRowUpdate[i][0]).val();
+            // this.dataCreate[parentThis.GetRowCreate[i][1]] = $(parentThis.GetRowCreate[i][0]).val();
+            if (parentThis.GetRowUpdate[i][2] == true) {
+                this.dataUpdate[parentThis.GetRowUpdate[i][0]] = parentThis.GetRowUpdate[i][1];
+
+            } else {
+                this.dataUpdate[parentThis.GetRowUpdate[i][1]] = $(parentThis.GetRowUpdate[i][0]).val();
+
+            }
         }
         console.log(parentThis.dataUpdate);
         console.log(parentThis.SetUpdateUrl + '/' + parentThis.getID);
@@ -178,7 +185,7 @@ define(function () {
 
         if (window.FormData) {
             console.log('form', form);
-//            formdata = new FormData(this.dataCreate);
+            //            formdata = new FormData(this.dataCreate);
 
         }
 
@@ -193,19 +200,19 @@ define(function () {
             }
         }
         console.log('dataUpdate', this.dataUpdate);
-//        console.log('formdata', formdata);
+        //        console.log('formdata', formdata);
 
 
-       
+
         $.ajax({
             url: parentThis.SetUpdateUrl + '/' + parentThis.getID,
             dataType: 'json',
-//            data: formdata ? formdata : form.serialize(),
+            //            data: formdata ? formdata : form.serialize(),
             data: this.dataUpdate,
 
             method: "post",
-//            contentType: true,
-//            processData: false,
+            //            contentType: true,
+            //            processData: false,
             headers: {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             },

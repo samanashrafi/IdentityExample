@@ -114,6 +114,7 @@ namespace IdentityExample.Areas.Admin.Controllers
         }
 
         [HttpPost]
+        [ValidateInput(false)]
         public JsonResult Edit(SubFreeContent subFreeContent, HttpPostedFileBase file)
         {
 
