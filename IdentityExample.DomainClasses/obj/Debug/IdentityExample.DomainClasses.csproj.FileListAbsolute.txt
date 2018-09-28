@@ -45,3 +45,14 @@ E:\Projects\IdentityExample\IdentityExample.DomainClasses\bin\Debug\Newtonsoft.J
 E:\Projects\IdentityExample\IdentityExample.DomainClasses\obj\Debug\IdentityExample.DomainClasses.dll
 E:\Projects\IdentityExample\IdentityExample.DomainClasses\obj\Debug\IdentityExample.DomainClasses.pdb
 E:\Projects\IdentityExample\IdentityExample.DomainClasses\obj\Debug\IdentityExample.DomainClasses.csprojResolveAssemblyReference.cache
+E:\Projects\IdentityExample\IdentityExample\IdentityExample.DomainClasses\bin\Debug\IdentityExample.DomainClasses.dll
+E:\Projects\IdentityExample\IdentityExample\IdentityExample.DomainClasses\bin\Debug\IdentityExample.DomainClasses.pdb
+E:\Projects\IdentityExample\IdentityExample\IdentityExample.DomainClasses\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\Projects\IdentityExample\IdentityExample\IdentityExample.DomainClasses\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Projects\IdentityExample\IdentityExample\IdentityExample.DomainClasses\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\IdentityExample\IdentityExample\IdentityExample.DomainClasses\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\Projects\IdentityExample\IdentityExample\IdentityExample.DomainClasses\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Projects\IdentityExample\IdentityExample\IdentityExample.DomainClasses\bin\Debug\Newtonsoft.Json.xml
+E:\Projects\IdentityExample\IdentityExample\IdentityExample.DomainClasses\obj\Debug\IdentityExample.DomainClasses.csprojResolveAssemblyReference.cache
+E:\Projects\IdentityExample\IdentityExample\IdentityExample.DomainClasses\obj\Debug\IdentityExample.DomainClasses.dll
+E:\Projects\IdentityExample\IdentityExample\IdentityExample.DomainClasses\obj\Debug\IdentityExample.DomainClasses.pdb

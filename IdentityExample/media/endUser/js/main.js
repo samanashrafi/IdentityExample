@@ -199,31 +199,31 @@
     });
 
     $('#submit-cantact').click(function () {
-        
-        if ($("form[name='frm-contact']").valid()) {
-            var data = {
-                name: $('#contact-name').val(),
-                title: $('#contact-title').val(),
-                email: $('#contact-email').val(),
-                message: $('#contact-message').val(),
-            }
-            
-        
-            $.ajax({
-                type: "POST",
-                url: "/admin/Contact/Create",
-                data: data,
-                contentType: "application/json; charset=utf-8",
-                dataType: "json",
-                success: function (data) {
-                    $('input,textarea').val("");
-                    alert("اطلاعات باٌ موفقیت ثبت شد.")
 
-                },
-                failure: function (errMsg) {
-                    alert(errMsg);
-                }
-            });
+        //if ($("form[name='frm-contact']").valid()) {
+        var data = {
+            Name: $('#contact-name').val(),
+            title: $('#contact-title').val(),
+            email: $('#contact-email').val(),
+            message: $('#contact-message').val(),
         }
+
+        console.log(data)
+        $.ajax({
+            type: "POST",
+            url: "/home/CreateMessage",
+            data: JSON.stringify(data),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (data) {
+                $('input,textarea').val("");
+                alert("اطلاعات باٌ موفقیت ثبت شد.")
+
+            },
+            failure: function (errMsg) {
+                alert(errMsg);
+            }
+        });
+        //}
     });
 });

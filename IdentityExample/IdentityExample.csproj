@@ -2693,7 +2693,6 @@
     <Content Include="Views\Home\_Ads.cshtml" />
     <Content Include="Views\Home\_Area.cshtml" />
     <Content Include="Views\Home\_About.cshtml" />
-    <Content Include="Views\Home\_Contact.cshtml" />
     <Content Include="Views\Home\Details.cshtml" />
     <Content Include="Views\List\AreaList.cshtml" />
     <Content Include="Views\List\Details.cshtml" />
@@ -2715,6 +2714,7 @@
     <Content Include="media\endUser\font-awesome\fonts\fa-solid-900.woff" />
     <Content Include="media\endUser\font-awesome\fonts\fa-solid-900.woff2" />
     <Content Include="Views\List\OtherList.cshtml" />
+    <Content Include="Views\Home\_Contact.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -2754,7 +2754,7 @@
     <Content Include="Views\Manage\Index.cshtml" />
     <Content Include="Views\Manage\ChangePassword.cshtml" />
     <Content Include="Views\Manage\AddPhoneNumber.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Contact1.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\VerifyCode.cshtml" />
@@ -2776,13 +2776,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\AccountController.cs" />
-    <Compile Include="Areas\Admin\Controllers\ContactController.cs" />
     <Compile Include="Areas\Admin\Controllers\SubFreeContentControlle.cs" />
     <Compile Include="Areas\Admin\Controllers\FreeContentController.cs" />
     <Compile Include="Areas\Admin\Controllers\SubItemController.cs" />
     <Compile Include="Areas\Admin\Controllers\TestController.cs" />
     <Compile Include="Controllers\AboutMeController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\ContactUsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ListController.cs" />
@@ -2830,6 +2830,7 @@
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Admin\SubFreeContentImage\" />
     <Folder Include="Areas\Admin\Views\FreeContent\Test\" />
+    <Folder Include="Views\Contact\" />
     <Folder Include="Views\MyHeader\" />
   </ItemGroup>
   <PropertyGroup>
