@@ -2776,6 +2776,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\AccountController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ContactController.cs" />
     <Compile Include="Areas\Admin\Controllers\SubFreeContentControlle.cs" />
     <Compile Include="Areas\Admin\Controllers\FreeContentController.cs" />
     <Compile Include="Areas\Admin\Controllers\SubItemController.cs" />

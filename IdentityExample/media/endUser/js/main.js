@@ -1,12 +1,12 @@
-﻿$(function () {
+﻿$(document).ready(function () {
 
     /*
    ----------------> global
    */
 
     $('*').persiaNumber();
-    console.log('$(window).height()', $(window).height(), '$(.navbar-wrapper).height()', $('.navbar-wrapper').height(), $('footer').height());
-    console.log($(window).height() - $('.navbar-wrapper').height());
+    //console.log('$(window).height()', $(window).height(), '$(.navbar-wrapper).height()', $('.navbar-wrapper').height(), $('footer').height());
+    //console.log($(window).height() - $('.navbar-wrapper').height());
 
     $('.body-content').css('min-height', $(window).height() - ($('.navbar-wrapper').height() + $('footer').height()) - 15 + 'px');
 
@@ -168,4 +168,62 @@
     });
 
 
+
+
+    /*
+  ----------------> Contactus Page
+  */
+    $("form[name='frm-contact']").validate({
+        debug: true,
+        onkeyup: true,
+        errorClass: "has-error has-feedback",
+        validClass: "has-success has-feedback",
+        rules: {
+            name: "required",
+            title: "required",
+            email: {
+                required: true,
+                email: true
+            },
+            message: "required"
+
+        },
+        messages: {
+            name: 'لطفا نام و نام خانوادگی را وارد فرمایید.',
+            title: 'لطفا عنوان خود را وارد فرمایید.',
+            email: "لطفا ایمیل خود را وارد فرمایید.",
+            message: "لطفا پیغام خود را وارد فرمایید."
+        }
+
+
+    });
+
+    $('#submit-cantact').click(function () {
+        
+        if ($("form[name='frm-contact']").valid()) {
+            var data = {
+                name: $('#contact-name').val(),
+                title: $('#contact-title').val(),
+                email: $('#contact-email').val(),
+                message: $('#contact-message').val(),
+            }
+            
+        
+            $.ajax({
+                type: "POST",
+                url: "/admin/Contact/Create",
+                data: data,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    $('input,textarea').val("");
+                    alert("اطلاعات باٌ موفقیت ثبت شد.")
+
+                },
+                failure: function (errMsg) {
+                    alert(errMsg);
+                }
+            });
+        }
+    });
 });

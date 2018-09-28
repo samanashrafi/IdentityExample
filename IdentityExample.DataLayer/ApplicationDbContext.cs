@@ -18,6 +18,8 @@ namespace IdentityExample.DataLayer
 
         public DbSet<SubItem> SubItems { get; set; }
 
+        public DbSet<Contact> Contacts { get; set; }
+
         public ApplicationDbContext()
             : base("MyIdentityDb")
         {

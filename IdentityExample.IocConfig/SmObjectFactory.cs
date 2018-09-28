@@ -107,9 +107,9 @@ namespace IdentityExample.IocConfig
                    .HybridHttpOrThreadLocalScoped()
                    .Use<SubFreeContentService>();
 
-                //ioc.For<IImageService>()
-                //   .HybridHttpOrThreadLocalScoped()
-                //   .Use<ImageService>();
+                ioc.For<IContactService>()
+                   .HybridHttpOrThreadLocalScoped()
+                   .Use<ContactService>();
 
                 ioc.For<ISubItemService>()
                     .HybridHttpOrThreadLocalScoped()

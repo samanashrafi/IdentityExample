@@ -3646,11 +3646,11 @@ label.has-error {
     font-size: 0.8em;
 }
 
-input.has-error {
+input.has-error,textarea.has-error {
     border: 1px solid #ed5565 !important;
 }
 
-input.has-success {
+input.has-success,text.has-success  {
     border: 1px solid #3c763d !important;
 }
 

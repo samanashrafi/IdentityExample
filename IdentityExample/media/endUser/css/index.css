@@ -130,6 +130,56 @@ a {
     font-size: 1.5em;
 }
 
+.form-control,
+.single-line {
+    background-color: #FFFFFF;
+    background-image: none;
+    border: 1px solid #e5e6e7;
+    border-radius: 1px;
+    color: inherit;
+    display: block;
+    font-size: 0.9em;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+
+    .form-control:focus,
+    .single-line:focus {
+        border-color: #5d5d5d;
+    }
+
+.has-success .form-control,
+.has-success .form-control:focus {
+    border-color: #1ab394;
+}
+
+.has-warning .form-control,
+.has-warning .form-control:focus {
+    border-color: #f8ac59;
+}
+
+.has-error .form-control,
+.has-error .form-control:focus {
+    border-color: #ed5565;
+}
+
+.has-success .control-label {
+    color: #1ab394;
+}
+
+.has-warning .control-label {
+    color: #f8ac59;
+}
+
+.has-error .control-label {
+    color: #ed5565;
+}
+
+.fg-line{
+    position:relative;
+}
+
 .button {
     /* text-transform: uppercase; */
     /* letter-spacing: 2px; */
@@ -758,7 +808,7 @@ footer {
 .form-wrap {
     width: 100%;
     float: right;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
     .form-wrap input, .form-wrap textarea {

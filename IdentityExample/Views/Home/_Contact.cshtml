@@ -41,20 +41,24 @@
             <div class="contact-section">
                 <h4>فرم تماس با ما</h4>
                 <!-- RD Mailform-->
-                <form name="frm-contact" method="post">
-                    <div class="form-wrap ">
+                <form name="frm-contact" onsubmit="return false">
+                    <div class="form-wrap fg-line">
                         <input id="contact-name" name="name" placeholder="نام و نام خانوادگی" type="text">
+                        <label id="name-error" for="contact-name" class="has-error has-feedback check_valid display-none"></label>
                     </div>
-                    <div class="form-wrap ">
+                    <div class="form-wrap fg-line">
                         <input id="contact-title" name="title" placeholder="عنوان" type="text">
+                        <label id="title-error" for="contact-title" class="has-error has-feedback check_valid display-none"></label>
                     </div>
-                    <div class="form-wrap ">
+                    <div class="form-wrap fg-line">
                         <input id="contact-email" name="email" placeholder="ایمیل" type="text">
+                        <label id="email-error" for="contact-email" class="has-error has-feedback check_valid display-none"></label>
                     </div>
-                    <div class="form-wrap">
+                    <div class="form-wrap fg-line">
                         <textarea id="contact-message" name="message" placeholder="پیغام"></textarea>
+                        <label id="message-error" for="contact-message" class="has-error has-feedback check_valid display-none"></label>
                     </div>
-                    <button class="btn-cantact bg-2" type="submit">ارسال</button>
+                    <button id="submit-cantact" class="btn-cantact bg-2" type="submit">ارسال</button>
                 </form>
             </div>
 

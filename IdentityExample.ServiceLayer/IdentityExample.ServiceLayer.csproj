@@ -79,6 +79,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContactService.cs" />
+    <Compile Include="IContactService.cs" />
     <Compile Include="ImageService.cs" />
     <Compile Include="IImageService.cs" />
     <Compile Include="ISubItemService.cs" />
