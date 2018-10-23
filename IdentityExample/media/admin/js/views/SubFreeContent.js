@@ -191,11 +191,11 @@ require(['JsonAction'], function (JsonAction) {
                         $("#edit-MetaKeyword").val(MetaKeyword);
                         $("#edit-MetaDescription").val(MetaDescription);
                         //$("#edit-LongDescription").val(LongDescription);
-                     
-                      
+
+
                         dataEditorUpdate.setData(LongDescription);;
 
-                       
+
                         //console.log('Image_Url', Image_Url);
 
                         //var indexOf = Image_Url.lastIndexOf('upload')
@@ -258,12 +258,12 @@ require(['JsonAction'], function (JsonAction) {
     var dataEditor = "", dataEditorUpdate = "";
 
     ClassicEditor.create(document.querySelector('#SubFC-E-Create'), {
-      language: 'fa'
+        language: 'fa'
     }).then(editor => {
         dataEditor = editor;
-      
+
     }).catch(err => {
-      console.error(err.stack);
+        console.error(err.stack);
     });
 
     ClassicEditor.create(document.querySelector('#SubFC'), {
@@ -318,7 +318,7 @@ require(['JsonAction'], function (JsonAction) {
 
 
         //SubFreeContent.PostUpdateMultiImage('edit-Image', 'SubFreeContent-update');
-                SubFreeContent.PostUpdate();
+        SubFreeContent.PostUpdate();
 
         //}
 
@@ -357,10 +357,10 @@ require(['JsonAction'], function (JsonAction) {
 
             }
 
-            //            if ($('#file').val() != "") {
-            //                SubFreeContent.SetDataCreate("#file", "file", false);
-            //
-            //            }
+            if ($('#file').val() != "") {
+                SubFreeContent.SetDataCreate("#file", "file", false);
+
+            }
 
             //SubFreeContent.SetDataCreate("#file", "file", false);
 
@@ -368,7 +368,7 @@ require(['JsonAction'], function (JsonAction) {
             SubFreeContent.SetDataCreate("#FreeContentId", "FreeContentId", false);
             //            SubFreeContent.Create();
 
-            SubFreeContent.Create('file');
+            SubFreeContent.CreateMultiImage('file');
 
         }
     });
