@@ -114,6 +114,10 @@ namespace IdentityExample.IocConfig
                 ioc.For<ISubItemService>()
                     .HybridHttpOrThreadLocalScoped()
                     .Use<SubItemService>();
+
+                ioc.For<ISubItemService>()
+                    .HybridHttpOrThreadLocalScoped()
+                    .Use<SubItemService>();
             });
         }
 

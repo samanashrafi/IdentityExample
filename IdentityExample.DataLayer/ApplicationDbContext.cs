@@ -20,6 +20,8 @@ namespace IdentityExample.DataLayer
 
         public DbSet<Contact> Contacts { get; set; }
 
+        public DbSet<PageMetaDetail> PageMetaDetails { get; set; }
+
         public ApplicationDbContext()
             : base("MyIdentityDb")
         {
