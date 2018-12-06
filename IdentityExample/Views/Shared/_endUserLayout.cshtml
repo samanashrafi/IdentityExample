@@ -7,9 +7,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="امانت بار , امانت بار تهران , اسباب کشی , اسباب کشی منزل , اثاث کشی منزل , حمل اثاثیه منزل , اثاثیه منزل , اتوبار , بسته بندی اثاثیه منزل , باربری , قیمت باربری , نرخ باربری , حمل ونقل و باربری ,">
-    <meta name="description" content="امانت بار تهران مفتخر است با بهتربن ماشین ها و رانندگان ماهر به تمامی شهروندان عزیز تهران، در مناطق مختلف که شامل غرب، شرق و شمال  تهران می باشد سرویس دهی لازم را انجام دهد">
+    @*<meta name="keywords" content="امانت بار , امانت بار تهران , اسباب کشی , اسباب کشی منزل , اثاث کشی منزل , حمل اثاثیه منزل , اثاثیه منزل , اتوبار , بسته بندی اثاثیه منزل , باربری , قیمت باربری , نرخ باربری , حمل ونقل و باربری ,">
+    <meta name="description" content="امانت بار تهران مفتخر است با بهتربن ماشین ها و رانندگان ماهر به تمامی شهروندان عزیز تهران، در مناطق مختلف که شامل غرب، شرق و شمال  تهران می باشد سرویس دهی لازم را انجام دهد">*@
 
+    @{
+        string currentUrl = Url.RequestContext.RouteData.Values["controller"] + "/" + Url.RequestContext.RouteData.Values["action"];
+        @(Html.Raw(IdentityExample.ServiceLayer.PageMetaDetailService.UpdateMetaDetails(currentUrl)));
+    }
     <link rel="canonical" href="https://amanatbartehran.ir/">
     <!-- Add Your favicon here -->
     <!--<link rel="icon" href="img/favicon.ico">-->

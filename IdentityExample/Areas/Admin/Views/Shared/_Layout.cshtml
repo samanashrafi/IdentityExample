@@ -77,6 +77,9 @@
                         @Html.Action("DashboardItems", "FreeContent")
                     </li>
                     <li>
+                        <a href="#"><i class="fa fa-users"></i> <span class="nav-label">مدیریت سئو</span></a>
+                    </li>
+                    <li>
                         @*<a href="" class="LogOut-User"><i class="fa fa-sign-out"></i> <span class="nav-label">خروچ</span></a>*@
                         @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "" }))
                         {
@@ -84,6 +87,7 @@
                         <a href="javascript:document.getElementById('logoutForm').submit()"><i class="fa fa-sign-out"></i> <span class="nav-label">خروچ</span></a>
                         }
                     </li>
+                    
                 </ul>
             </div>
         </nav>

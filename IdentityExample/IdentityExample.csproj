@@ -203,7 +203,6 @@
     <Content Include="bin\Microsoft.AspNet.Identity.Owin.xml" />
     <Content Include="bin\Microsoft.AspNet.SignalR.Core.dll" />
     <Content Include="bin\Microsoft.AspNet.SignalR.Core.xml" />
-    <Content Include="bin\Microsoft.AspNet.SignalR.SystemWeb.dll" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
     <Content Include="bin\Microsoft.Owin.dll" />
@@ -2714,6 +2713,7 @@
     <Content Include="media\endUser\font-awesome\fonts\fa-solid-900.woff2" />
     <Content Include="Views\List\OtherList.cshtml" />
     <Content Include="Views\Home\_Contact.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -2753,7 +2753,6 @@
     <Content Include="Views\Manage\Index.cshtml" />
     <Content Include="Views\Manage\ChangePassword.cshtml" />
     <Content Include="Views\Manage\AddPhoneNumber.cshtml" />
-    <Content Include="Views\Home\Contact1.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\VerifyCode.cshtml" />
@@ -2776,6 +2775,7 @@
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\AccountController.cs" />
     <Compile Include="Areas\Admin\Controllers\ContactController.cs" />
+    <Compile Include="Areas\Admin\Controllers\PageMetaDetailController.cs" />
     <Compile Include="Areas\Admin\Controllers\SubFreeContentControlle.cs" />
     <Compile Include="Areas\Admin\Controllers\FreeContentController.cs" />
     <Compile Include="Areas\Admin\Controllers\SubItemController.cs" />

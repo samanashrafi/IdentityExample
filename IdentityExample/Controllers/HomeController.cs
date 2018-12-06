@@ -13,21 +13,24 @@ namespace IdentityExample.Controllers
         readonly FreeContentService _freeContentService;
         readonly SubFreeContentService _subFreeContentService;
         readonly ContactService _contactServiceService;
+        readonly PageMetaDetailService _pageMetaDetailService;
         readonly IUnitOfWork _uow;
 
         public HomeController(IApplicationUserManager userManager, FreeContentService freeContentService, SubFreeContentService subFreeContentService
-            , ContactService contactService, IUnitOfWork uow)
+            , ContactService contactService, IUnitOfWork uow, PageMetaDetailService pageMetaDetailService)
         {
             _userManager = userManager;
             _freeContentService = freeContentService;
             _subFreeContentService = subFreeContentService;
             _contactServiceService = contactService;
             _uow = uow;
+            _pageMetaDetailService = pageMetaDetailService;
         }
 
 
         public ActionResult Index()
         {
+           // var model = _pageMetaDetailService.UpdateMetaDetails("Home/Index");
             return View();
         }
 
