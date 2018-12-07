@@ -20,10 +20,12 @@ namespace IdentityExample.Areas.Admin.Controllers
     public class FreeContentController : Controller
     {
         readonly FreeContentService _freeContentService;
+        readonly SubFreeContentService _subFreeContentService;
         readonly IUnitOfWork _uow;
-        public FreeContentController(IUnitOfWork uow, FreeContentService freeContentService)
+        public FreeContentController(IUnitOfWork uow, FreeContentService freeContentService, SubFreeContentService subFreeContentService)
         {
             _freeContentService = freeContentService;
+            _subFreeContentService = subFreeContentService;
             _uow = uow;
         }
 

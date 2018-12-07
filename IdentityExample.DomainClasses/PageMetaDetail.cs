@@ -15,5 +15,6 @@ namespace IdentityExample.DomainClasses
         public string Title { get; set; }
         public string MetaKeyWords { get; set; }
         public string MetaDescription { get; set; }
+        public string Type { get; set; }
     }
 }

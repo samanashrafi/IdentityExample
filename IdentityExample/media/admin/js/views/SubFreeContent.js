@@ -20,12 +20,12 @@ $(document).ready(function () {
     //    rules: {
 
     //        Title: "required",
-    //        TitleEn: "required",
+    //        EnTitle: "required",
 
     //    },
     //    messages: {
     //        Title: 'لطفا  عنوان فارسی محتوای آزاد را وارد فرمایید.',
-    //        TitleEn: "لطفا  عنوان انگلیسی محتوای آزاد را وارد فرمایید.",
+    //        EnTitle: "لطفا  عنوان انگلیسی محتوای آزاد را وارد فرمایید.",
     //    }
 
 
@@ -40,12 +40,12 @@ $(document).ready(function () {
         rules: {
 
             Title: "required",
-            TitleEn: "required",
+            EnTitle: "required",
 
         },
         messages: {
             Title: 'لطفا  عنوان فارسی محتوای آزاد را وارد فرمایید.',
-            TitleEn: "لطفا  عنوان انگلیسی محتوای آزاد را وارد فرمایید.",
+            EnTitle: "لطفا  عنوان انگلیسی محتوای آزاد را وارد فرمایید.",
         },
 
 
@@ -158,7 +158,6 @@ require(['JsonAction'], function (JsonAction) {
             $(parentThis.TableName).find(".edit-SubFreeContent").on("click", function (e, row) {
                 e.preventDefault();
                 $('.Edit-Modal').click();
-
                 parentThis.getID = $(this).attr('data-id');
 
                 //                alert('edit is click.');
@@ -171,7 +170,7 @@ require(['JsonAction'], function (JsonAction) {
 
                     if (parentThis.GetRows[c]['Id'] == parentThis.getID) {
                         var Title = parentThis.GetRows[c]['Title'];
-                        var TitleEn = parentThis.GetRows[c]['TitleEn'];
+                        var EnTitle = parentThis.GetRows[c]['EnTitle'];
                         var Type = parentThis.GetRows[c]['Type'];
                         var Priority = parentThis.GetRows[c]['Priority'];
                         var Condition = parentThis.GetRows[c]['Condition'];
@@ -182,9 +181,9 @@ require(['JsonAction'], function (JsonAction) {
                         var Image_Url = parentThis.GetRows[c]['Image'].Url;
                         var Image_Name = parentThis.GetRows[c]['Image'].Name;
 
-
+                        //$("#FreeContentId").val(parseInt(parentThis.getID));
                         $("#edit-Title").val(Title);
-                        $("#edit-TitleEn").val(TitleEn);
+                        $("#edit-EnTitle").val(EnTitle);
                         $("#edit-Type").val(Type);
                         $("#edit-Priority").val(Priority);
                         $("#edit-PageTitle").val(PageTitle);
@@ -289,7 +288,7 @@ require(['JsonAction'], function (JsonAction) {
         //if ($("form[name='edit_SubFreeContent']").valid()) {
 
         SubFreeContent.SetDataUpdate("#edit-Title", "Title", false);
-        SubFreeContent.SetDataUpdate("#edit-TitleEn", "TitleEn", false);
+        SubFreeContent.SetDataUpdate("#edit-EnTitle", "EnTitle", false);
         //
         //        if ($('#edit-Priority').val() != "") {
         //            SubFreeContent.SetDataUpdate("#edit-Priority", "Priority", false);
@@ -312,7 +311,12 @@ require(['JsonAction'], function (JsonAction) {
 
         }
 
-        SubFreeContent.SetDataUpdate("#edit-Condition", "Condition", false);
+        if ($('#edit-Condition').is(':checked')) {
+            SubFreeContent.SetDataUpdate("Condition", true, true);
+
+        } else {
+            SubFreeContent.SetDataUpdate("Condition", false, true);
+        }
         SubFreeContent.SetDataUpdate("#FreeContentId", "FreeContentId", false);
         //        SubFreeContent.SetDataUpdate("#edit-images-update", "", false);
 
@@ -329,7 +333,7 @@ require(['JsonAction'], function (JsonAction) {
 
         if ($("form[name='reg_SubFreeContent']").valid()) {
             SubFreeContent.SetDataCreate("#Title", "Title", false);
-            SubFreeContent.SetDataCreate("#TitleEn", "EnTitle", false);
+            SubFreeContent.SetDataCreate("#EnTitle", "EnTitle", false);
 
             if ($('#Priority').val() != "") {
                 SubFreeContent.SetDataCreate("#Priority", "Priority", false);

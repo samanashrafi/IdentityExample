@@ -94,7 +94,6 @@ define(function () {
     JsonAction.prototype.PostUpdate = function () {
         //
         var parentThis = this;
-      debugger
         for (var i = 0; i < parentThis.GetRowUpdate.length; ++i) {
             // this.dataCreate[parentThis.GetRowCreate[i][1]] = $(parentThis.GetRowCreate[i][0]).val();
             if (parentThis.GetRowUpdate[i][2] == true) {

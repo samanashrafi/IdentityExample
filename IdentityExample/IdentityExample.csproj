@@ -2104,6 +2104,7 @@
     <Content Include="media\admin\js\Scripts\jquery-2.1.1.js" />
     <Content Include="media\admin\js\Scripts\jquery-3.1.1.min.js" />
     <Content Include="media\admin\js\Scripts\jquery.bootgrid.js" />
+    <Content Include="media\admin\js\views\PageMetaDetail.js" />
     <Content Include="media\admin\js\views\SubFreeContent.js" />
     <Content Include="media\admin\js\views\FreeContent.js" />
     <Content Include="media\admin\js\model\JsonAction.js" />
@@ -2485,6 +2486,9 @@
     <Content Include="bin\IdentityExample.dll.config" />
     <Content Include="Areas\Admin\Views\SubFreeContent\Index.cshtml" />
     <Content Include="favicon.ico" />
+    <Content Include="Areas\Admin\Views\PageMetaDetail\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\PageMetaDetail\_Create.cshtml" />
+    <Content Include="Areas\Admin\Views\PageMetaDetail\_Edit.cshtml" />
     <None Include="media\admin\js\Scripts\jquery.validate-vsdoc.js" />
     <Content Include="media\admin\js\Scripts\jquery.validate.js" />
     <Content Include="media\admin\js\Scripts\jquery.validate.min.js" />

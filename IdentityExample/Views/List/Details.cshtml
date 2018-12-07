@@ -18,10 +18,10 @@
                         <div class="img"></div>
                         <h5 class="name">مدیر سایت</h5>
                     </div>
-                    <div class="date">
+                    @*<div class="date">
                         <i class="far fa-clock"></i>
                         <span>8 شهریور 1397 - 12:30</span>
-                    </div>
+                    </div>*@
                 </div>
                 @if (item.Image.Url != null)
                 {
@@ -46,10 +46,10 @@
                     <ul>
                         <li><a id="telegram" href="https://telegram.me/share/url?url=http://amanatbartehran.ir/List/Details/@item.Id"><i class="fab fa-telegram-plane"></i></a></li>
                         <li><a id="twitter" href="http://twitter.com/intent/tweet/?url=http://amanatbartehran.ir/List/Details/@item.Id"><i class="fab fa-twitter"></i></a></li>
-                        <li><a id="google-plus" href="https://plus.google.com/share?url=http://amanatbartehran.ir/List/Details/@item.Id" ><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a id="google-plus" href="https://plus.google.com/share?url=http://amanatbartehran.ir/List/Details/@item.Id"><i class="fab fa-google-plus-g"></i></a></li>
                         <li><a id="facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://amanatbartehran.ir/List/Details/@item.Id"><i class="fab fa-facebook"></i></a></li>
                     </ul>
-                   
+
                 </div>
 
             </article>
@@ -57,3 +57,22 @@
         </div>
     </div>
 </section>
+
+<script>
+    var PageTitle = "@item.PageTitle";
+    var MetaKeyword = "@item.MetaKeyword";
+    var MetaDescription = "@item.MetaDescription";
+
+    
+    function getMeta(metaName, content) {
+        const metas = document.getElementsByTagName('meta');
+        for (let i = 0; i < metas.length; i++) {
+            if (metas[i].getAttribute('name') === metaName) {
+                metas[i].content = content;
+            }
+        }
+    }
+    document.title = PageTitle;
+    getMeta('keywords', MetaKeyword)
+    getMeta('description', MetaDescription)
+</script>

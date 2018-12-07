@@ -70,6 +70,12 @@ namespace IdentityExample.ServiceLayer
             return model;
         }
 
+        public List<PageMetaDetail> GetPageMetaDetailList()
+        {
+            var model = _pageMetaDetail.ToList();
+            return model;
+        }
+
         public void Update(PageMetaDetail pageMetaDetail)
         {
             var model = _pageMetaDetail
@@ -81,31 +87,45 @@ namespace IdentityExample.ServiceLayer
 
             _uow.MarkAsChanged(model);
             _uow.SaveAllChanges();
-            
+
         }
 
         public static string UpdateMetaDetails(string pageUrl)
         {
-            //--- StringBuilder object to store MetaTags information.
             StringBuilder sbMetaTags = new StringBuilder();
+            string metaDescribe = "";
+            string keyWord = "";
+            PageMetaDetail titleObject = new PageMetaDetail();
 
-            //--Step1 Get data from database.
+            var obj = _pageMetaDetail.FirstOrDefault(a => a.PageUrl == pageUrl);
 
-            var obj = _pageMetaDetail.Where(a => a.PageUrl == pageUrl).FirstOrDefault();
+            if (obj == null)
+            {
+               
+                sbMetaTags.Append("<title>" + "امانت بار تهران" + "</title>");
+                sbMetaTags.Append(Environment.NewLine);
+                //metaDescribe = "امانت بار تهران";
+                //keyWord = "امانت بار تهران";
+                sbMetaTags.Append("<meta name=" + "\"description\"" + "Content =" + "\"" + "امانت بار تهران" + "\"=" + ">");
+                sbMetaTags.Append(Environment.NewLine);
 
-                //---- Step2 In this step we will add <title> tag to our StringBuilder Object.
+                sbMetaTags.Append("<meta name=" + "\"keywords\"" + "Content =" + "\"" + "امانت بار تهران" + "\"=" + ">");
+            }
+            else
+            {
                 sbMetaTags.Append("<title>" + obj.Title + "</title>");
                 sbMetaTags.Append(Environment.NewLine);
-            string metaDescribe = obj.MetaDescription.ToString();
-            string keyWord = obj.MetaKeyWords.ToString();
-
-                //---- Step3 In this step we will add "Meta Description" to our StringBuilder Object.
-            sbMetaTags.Append("<meta name=" + "\"description\"" + "Content =" + "\"" + metaDescribe + "\"="+">");
+                metaDescribe = obj.MetaDescription.ToString();
+                keyWord = obj.MetaKeyWords.ToString();
+                sbMetaTags.Append("<meta name=" + "\"description\"" + "Content =" + "\"" + metaDescribe + "\"=" + ">");
                 sbMetaTags.Append(Environment.NewLine);
-            //---- Step4 In this step we will add "Meta Keywords" to our StringBuilder Object.
-            sbMetaTags.Append("<meta name=" + "\"keywords\"" + "Content =" + "\"" + keyWord + "\"=" + ">");
+
+                sbMetaTags.Append("<meta name=" + "\"keywords\"" + "Content =" + "\"" + keyWord + "\"=" + ">");
+            }
+
             
-          
+
+
             return sbMetaTags.ToString();
         }
     }

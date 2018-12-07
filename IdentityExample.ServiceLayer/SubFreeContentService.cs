@@ -49,10 +49,10 @@ namespace IdentityExample.ServiceLayer
             return model;
         }
 
-        public SubFreeContent GetSubByFreeContentId(int id)
+        public List<SubFreeContent> GetSubByFreeContentId(int id)
         {
             var model = _subFreeContents
-                .FirstOrDefault(p => p.Id == id);
+                .Where(p => p.FreeContentId == id).ToList();
             return model;
         }
 

@@ -1,9 +1,10 @@
 ﻿
 @using IdentityExample.DomainClasses
 @model IdentityExample.DomainClasses.FreeContent
+
 @{
     ViewBag.Title = "Index";
-    SubFreeContent subFreeContentModel = ViewBag.SubFreeContent;
+    //List<SubFreeContent> subFreeContentModel = ViewBag.SubFreeContent;
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
@@ -49,7 +50,7 @@
                             <th data-column-id="Id" data-type="numeric" data-identifier="true">کد</th>
                             <th data-column-id="Title">عنوان</th>
                             <th data-column-id="MetaKeyword">کلمات کلیدی</th>
-                            <th data-column-id="SubFreeContent">توضیحات صفحه</th>
+                            <th data-column-id="MetaDescription">توضیحات صفحه</th>
                             <th data-column-id="btn_SubFreeContent" data-formatter="btn_SubFreeContent" data-sortable="false">عملیات</th>
                         </tr>
                 </table>
@@ -57,13 +58,14 @@
         </div>
     </div>
 </div>
+<input type="hidden" id="FreeContentId" name="FreeContentId" value="@Model.Id" />
 
 @Html.Partial("_Create", Model.Id)
-@if (subFreeContentModel != null)
-{
-    @Html.Partial("_Edit", subFreeContentModel)
+@*@if (subFreeContentModel != null)
+{*@
+    @Html.Partial("_Edit")
 
-}
+@*}*@
 
 <script src="~/media/admin/js/plugins/dropzone/dropzone.js"></script>
 @section scriptfooter{
